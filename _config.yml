@@ -1,10 +1,13 @@
 # site settings
-title: Forty
+locale                   : "en-US"
+title                    : "Chloe Rickards"
+title_separator          : "-"
+name                     : &name "Chloe Rickards"
+description              : &description "Resume and Portfolio for Chloe Rickards"
+url                      : https://chloerickards.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 subtitle: by HTML5 UP
 email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
 city: Nashville
