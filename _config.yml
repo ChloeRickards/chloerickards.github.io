@@ -28,7 +28,7 @@ socials:
   Twitter: 
   Facebook:
   Slack:
-  Envelope: mailto:{{ site.email }}
+  Envelope: mailto:{{rickards.chloe@gmail.com}}
 
 # build settings
 markdown: kramdown
