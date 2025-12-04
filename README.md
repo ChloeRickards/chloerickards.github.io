@@ -1,4 +1,4 @@
-Hi, my name is Chloe. I am an artist and a data scientist and this is my portfolio. Thanks for visiting!
+Hi, my name is Chloe. I am a data scientist and an artist and this is my portfolio. Thanks for visiting!
 
 [Click here to access my portfolio](https://chloerickards.github.io/)
 
