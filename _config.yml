@@ -3,7 +3,7 @@ locale                   : "en-US"
 title                    : "Chloe Rickards"
 title_separator          : "-"
 name                     : &name "Chloe Rickards"
-description              : &description "I like to do a little bit of everything, from statistical modeling to scientific illustrations."
+description              : &description "Hi, my name is Chloe. I am a data scientist and an artist and this is my portfolio. Thanks for visiting!"
 url                      : https://chloerickards.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 subtitle: DATA & ART
