@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+title: Art
+description: Enter a world of science illustration, playful creations, and immersive storytelling.
+image: assets/images/right brain.jpg
 nav-menu: true
 ---
 
