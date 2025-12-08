@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Elements
-image: assets/images/pic01.jpg
+title: Data
+image: assets/images/left brain.jpg
 nav-menu: true
 ---
 
