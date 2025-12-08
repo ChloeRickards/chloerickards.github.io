@@ -3,6 +3,8 @@ layout: post
 title: Art
 description: Enter a world of science illustration, playful creations, and immersive storytelling.
 image: assets/images/rightbrain.jpg
+permalink: /art/
+order: 2
 nav-menu: true
 ---
 
