@@ -3,6 +3,8 @@ layout: page
 title: Data
 description: Learn about mathematical modeling, epidemiological statistics, and community college research.
 image: assets/images/leftbrain.jpg
+permalink: /data/
+order: 1
 nav-menu: true
 ---
 
