@@ -24,7 +24,7 @@
 				'filter 1s ease',
 				'-webkit-filter 1s ease'
 			));
-			@include padding(1em, 1em);
+			@include padding(2em, 2em);
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -148,23 +148,28 @@
 
 		@include breakpoint(large) {
 			article {
-				@include padding(4em, 3em);
-				height: 30vh;
-				max-height: 30em;
-				min-height: 20em;
+				@include padding(2em, 2em);
+				height: 0;
+				padding-bottom: 50%;
+				max-height: none;
+				min-height: 0;
 			}
 		}
 
 		@include breakpoint(medium) {
 			article {
+				@include padding(2em, 2em);
 				width: 50% !important;
+				height: 0;
+				padding-bottom: 50%;
 			}
 		}
 
 		@include breakpoint(small) {
 			article {
-				@include padding(3em, 1.5em);
-				height: 16em;
+				@include padding(2em, 2em);
+				height: 0;
+				padding-bottom: 50%;
 				max-height: none;
 				min-height: 0;
 
@@ -178,7 +183,9 @@
 			display: block;
 
 			article {
-				height: 20em;
+				@include padding(2em, 2em);
+				height: 0;
+				padding-bottom: 100%;
 				width: 100% !important;
 			}
 		}
