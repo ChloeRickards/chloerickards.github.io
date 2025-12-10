@@ -17,9 +17,6 @@
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		/*height: 20vh;
-		max-height: 32em;
-		min-height: 5em;*/
 		height: auto;
 		position: relative;
 		margin-bottom: -3.25em;
@@ -96,9 +93,7 @@
 		}
 
 		&.major {
-			height: 75vh;
-			min-height: 30em;
-			max-height: 50em;
+			height: auto;
 
 			&.alt {
 				  opacity: 0.75;
