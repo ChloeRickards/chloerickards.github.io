@@ -127,8 +127,8 @@
 			@include padding(1.5em, 0, (2em, 0, 0, 0));
 			height: auto;
 			margin-bottom: -2.75em;
-			max-height: none;
-			min-height: 0;
+			/*max-height: none;
+			min-height: 0;*/
 			top: -2.75em;
 
 			h1 {
@@ -148,8 +148,8 @@
 
 			&.major {
 				height: auto;
-				min-height: 0;
-				max-height: none;
+				/*min-height: 0;
+				max-height: none;*/
 			}
 		}
 
