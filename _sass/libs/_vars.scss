@@ -30,18 +30,18 @@
 
 // Palette.
 	$palette: (
-		bg:					#242943,
-		bg-alt:				#2a2f4a,
-		fg:					#ffffff,
-		fg-bold:			#ffffff,
-		fg-light:			rgba(244,244,255,0.2),
-		border:				rgba(212,212,255,0.1),
-		border-bg:			rgba(212,212,255,0.035),
-		highlight:			#9bf1ff,
-		accent1:			#6fc3df,
-		accent2:			#8d82c4,
-		accent3:			#ec8d81,
-		accent4:			#e7b788,
-		accent5:			#8ea9e8,
-		accent6:			#87c5a4
+		bg:					#242943, //dark navy blue
+		bg-alt:				#2a2f4a, //navy blue variant
+		fg:					#a68f79, //light tan
+		fg-bold:			#a68f79, //light tan
+		fg-light:			rgba(166,143,121,0.2), //light tan
+		border:				rgba(177,176,255,0.1), //light blue
+		border-bg:			rgba(177,176,255,0.035), //light blue
+		highlight:			#9bf1ff, //light teal
+		accent1:			#87c5a4, //light green
+		accent2:			#8d82c4, //lavender
+		accent3:			#dba169, //pastel orange
+		accent4:			#db86d8, //light magenta
+		accent5:			#8ea9e8, //light blue
+		accent6:			#6fc3df //light teal
 	);
