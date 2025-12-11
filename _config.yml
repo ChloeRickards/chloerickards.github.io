@@ -19,12 +19,12 @@ tiles:
   - title: Data
     image: assets/images/leftbrain.jpg
     url: /data/  # This MUST match the permalink in your data.md file
-    description: "Interactive R Shiny apps and data visualization projects."
+    description: "Learn about community college research, predictive statistics, and disease modeling."
 
   - title: Art
     image: assets/images/rightbrain.jpg
     url: /art/  # This MUST match the permalink in your art.md file
-    description: "A selection of my paintings and digital creations."
+    description: "Enter a world of science illustration, playful creations, and immersive storytelling."
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
