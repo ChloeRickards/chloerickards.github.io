@@ -29,12 +29,13 @@ Hire me as a data consultant for...
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Elements</h1>
+			<h1>Data</h1>
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+<h2 id="content">Systems-level Analytics</h2>
+<p> I draw on over a decade of data analytics and statistical programming to identify meaningful patterns in complex systems and drive data-driven decision making. I currently consult with the Research & Planning (RP) Group to support student success and equity for the California Community College systems. I use my background of bioengineering, disease ecology, and epidemiological statistics to rigorously analyze "black box" systems and draw actionable conclusions on their inner workings. </p>
+
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Sem turpis amet semper</h3>
