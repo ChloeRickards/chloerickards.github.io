@@ -8,6 +8,20 @@ order: 1
 nav-menu: true
 ---
 
+<!--
+Storytelling mode??
+Disease Ecology and Bioengineering
+Epidemiology, COVID, Disease Ecology
+Link to disease model shiny app
+Link to covid model shiny app
+Link to gene drive static page (?)
+Publications
+
+Community College work and RP Group
+
+Hire me as a data consultant for...
+-->
+
 <!-- Main -->
 <div id="main" class="alt">
 
