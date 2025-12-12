@@ -41,7 +41,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{% link assets/images/covid19.jpg %}" alt="" data-position="top center" />
+		<img src="{% link assets/images/covid19.jpg %}" alt="" data-position="25% 25" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
