@@ -63,7 +63,7 @@ nav-menu: true
 				</header>
 				<p>As genetic engineering becomes easier and cheaper, its potential for improving global health continues to grow. This theoretical model examines the potential application of a CRISPR-Cas9 gene drive to a population of Biomphalaria glabrata snails, the intermediate host for the neglected tropical disease schistosomiasis. </p>
 				<ul class="actions">
-					<li><a href="genedrive.html" class="button">Learn more</a></li>
+					<li><a href="/genedrive/" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
