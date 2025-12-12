@@ -96,16 +96,22 @@
 
 		@include breakpoint(medium) {
 			> section {
-				display: block;
-
 				> .image {
-					width: 100%;
+					width: 45%;
 				}
 
 				> .content {
-					@include padding(4em, 3em);
-					width: 100%;
+					width: 55%;
 				}
+				// display: block;
+
+				// > .image {
+				// 	width: 100%;
+				// }
+
+				// > .content {
+				// 	@include padding(4em, 3em);
+				// 	width: 100%;
 			}
 		}
 
