@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Data
+layout: landing
 description: Learn about disease modeling, predictive statistics, and community college research.
 image: assets/images/leftbrain.jpg
 permalink: /data/
