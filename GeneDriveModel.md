@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: generic
 title: "Modeling a Gene Drive in the Intermediate Host for Schistosomiasis, a Neglected Tropical Disease"
 permalink: /genedrive/
 author_profile: true
@@ -132,3 +132,4 @@ This exercise demonstrated what would happen to a theoretical population of fres
 ![SA-fig.png](SA-fig.png)
 
 **Figure 2.** Sobol sensitivity analysis, measuring the sensitivity of all of the parameters to the number of infected snails at t=99. The parameter with the highest sensitivity index is beta, or $\beta$, the force of infection on the snails. This suggests that the higher the infection level in the environment, the more successfully a resistance-inducing gene drive will perform!
+
