@@ -41,7 +41,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{% link assets/images/covid19.jpg %}" alt="" data-position="25% 25" />
+		<img src="{% link assets/images/covid19.jpg %}" alt="" data-position="center center" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -55,7 +55,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{% link assets/images/genedrive.png %}" alt="" data-position="25% 25%" />
+		<img src="{% link assets/images/genedrive.png %}" alt="" data-position="center center" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -69,7 +69,7 @@ nav-menu: true
 		</div>
 	</section>
 		<section>
-		<img src="{% link assets/images/diseasemodel.png %}" alt="" data-position="25% 25%" />
+		<img src="{% link assets/images/diseasemodel.png %}" alt="" data-position="center center" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
