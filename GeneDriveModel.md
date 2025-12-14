@@ -4,7 +4,7 @@ title: Theoretical Models of Bioengineering for Global Health
 description: Modeling a Gene Drive in the Intermediate Host for Schistosomiasis, a Neglected Tropical Disease
 permalink: /genedrive/
 image: assets/images/genedrive.png
-nav-menu: true
+nav-menu: false
 ---
 
 ## Summary
@@ -36,7 +36,8 @@ To model this situation, we start with characterizing our **alleles**. Each alle
 
 Alleles mix and match during reproduction to form genotypes, and we are interested in tracking the change of genotype proportions over time.The goal of this model is to observe how the population genetics of a snail population change over time (measured in generations of snails). To do this, we set up a transition matrix (Grewelle et al. 2022), which tracks how genotypes change from one generation to the next. The following algorithm constructs the matrix by examining all combinations of genotype crossings - both in sexual reproduction (or outcrossing) and asexual reproduction (or selfing).
 
-```python
+<!--```python-->
+<pre><code>
 def get_transition_matrix(genotypes, previous_gen_proportions):
     """Get the transition matrix - or, the probability that one 
  
@@ -115,7 +116,8 @@ def get_transition_matrix(genotypes, previous_gen_proportions):
     tm = (1 - SIG) * out_tm + SIG * INBR * self_tm
     
     return tm
-```
+<!--```-->
+</code></pre>
 
 
 
@@ -134,6 +136,7 @@ This exercise demonstrated what would happen to a theoretical population of fres
 ![SA-fig.png](SA-fig.png)
 
 **Figure 2.** Sobol sensitivity analysis, measuring the sensitivity of all of the parameters to the number of infected snails at t=99. The parameter with the highest sensitivity index is beta, or $\beta$, the force of infection on the snails. This suggests that the higher the infection level in the environment, the more successfully a resistance-inducing gene drive will perform!
+
 
 
 
