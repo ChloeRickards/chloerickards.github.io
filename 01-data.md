@@ -24,7 +24,9 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<img src="{% link assets/images/ccsf_data_map.png %}" alt="" data-position="center center" />
+		<div class = "image">
+			<img src="{% link assets/images/ccsf_data_map.png %}" alt="Heat map of San Francisco displaying ZIP-code-based student residence data" data-position="center center" />
+		</div>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -41,7 +43,9 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{% link assets/images/covid19.jpg %}" alt="" data-position="center center" />
+		<div class = "image">
+			<img src="{% link assets/images/covid19.jpg %}" alt="" data-position="center center" />
+		</div>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -55,7 +59,9 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{% link assets/images/genedrive.png %}" alt="" data-position="center center" />
+		<div class = "image">
+			<img src="{% link assets/images/genedrive.png %}" alt="" data-position="center center" />
+		</div>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -69,7 +75,9 @@ nav-menu: true
 		</div>
 	</section>
 		<section>
-		<img src="{% link assets/images/diseasemodel.png %}" alt="" data-position="center center" />
+		<div class = "image">
+			<img src="{% link assets/images/diseasemodel.png %}" alt="" data-position="center center" />
+		</div>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
