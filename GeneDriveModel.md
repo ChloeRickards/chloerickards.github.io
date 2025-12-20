@@ -6,21 +6,30 @@ permalink: /genedrive/
 nav-menu: false
 ---
 
-## Summary
+<div id="main" class="alt">
 
-As genetic engineering becomes easier and cheaper, its potential for improving global health continues to grow. This theoretical model examines the potential application of a CRISPR-Cas9 gene drive to a population of *Biomphalaria glabrata* snails, the intermediate host for the neglected tropical disease schistosomiasis. This system is of special interest because these snails reproduce both sexually and asexually. This model shows the outcome of a gene drive in a scenario where asexual reproduction has to be considered.
+<section id="one">
+	<div class="inner">
 
-**Tools used in this demo**: Python, pandas, NumPy, matplotlib, sensitivity analysis, population genetics, Markov process, parameter optimization
+<h2 id="summary">Summary</h2>
 
-For more information about this system, see [Grewelle et al. 2022.](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0010894)
+<p>As genetic engineering becomes easier and cheaper, its potential for improving global health continues to grow. This theoretical model examines the potential application of a CRISPR-Cas9 gene drive to a population of *Biomphalaria glabrata* snails, the intermediate host for the neglected tropical disease schistosomiasis. This system is of special interest because these snails reproduce both sexually and asexually. This model shows the outcome of a gene drive in a scenario where asexual reproduction has to be considered. </p>
 
-This is a truncated Markdown version of a Jupyter Notebook. To view the full notebook, [click here](https://github.com/ChloeRickards/chloerickards.github.io/blob/master/files/GeneDriveModel_full.ipynb).
+<p><b>Tools used in this demo:</b> Python, pandas, NumPy, matplotlib, sensitivity analysis, population genetics, Markov process, parameter optimization </p>
 
-# Table of contents
+<p> For more information about this system, see [Grewelle et al. 2022.](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0010894) </p>
+
+<p> This is a truncated Markdown version of a Jupyter Notebook. To view the full notebook, [click here](https://github.com/ChloeRickards/chloerickards.github.io/blob/master/files/GeneDriveModel_full.ipynb). </p>
+
+
+
+<h2 id="toc">Table of Contents</h2>
 1. [The System](#system)
 2. [The Transition Matrix](#tm)
 3. [The Genotypes over Time](#genotypes)
 4. [The Next Steps](#nextsteps)
+
+<hr class="major" />
 
 
 ## The System <a name="system"></a>
@@ -135,6 +144,7 @@ This exercise demonstrated what would happen to a theoretical population of fres
 ![SA-fig.png](SA-fig.png)
 
 **Figure 2.** Sobol sensitivity analysis, measuring the sensitivity of all of the parameters to the number of infected snails at t=99. The parameter with the highest sensitivity index is beta, or $\beta$, the force of infection on the snails. This suggests that the higher the infection level in the environment, the more successfully a resistance-inducing gene drive will perform!
+
 
 
 
