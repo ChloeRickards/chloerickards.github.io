@@ -22,10 +22,12 @@ nav-menu: false
 <p> This is a truncated Markdown version of a Jupyter Notebook. To view the full notebook, <a href= "https://github.com/ChloeRickards/chloerickards.github.io/blob/master/files/GeneDriveModel_full.ipynb">click here</a>. </p>
 
 <h3 id="toc">Table of Contents</h2>
-1. <a href= "#system">The System</a>
-2. <a href = "#tm">The Transition Matrix</a>
-3. <a href = "#genotypes">The Genotypes over Time</a>
-4. <a href = "#nextsteps">The Next Steps</a>
+<ol>
+	<li><a href= "#system">The System</a></li>
+	<li><a href = "#tm">The Transition Matrix</a></li>
+	<li><a href = "#genotypes">The Genotypes over Time</a></li>
+	<li><a href = "#nextsteps">The Next Steps</a></li>
+</ol>
 
 <hr class="major" />
 
@@ -129,19 +131,20 @@ def get_transition_matrix(genotypes, previous_gen_proportions):
 <h2 id="genotypes">The Genotypes over Time</h2>
 
 
-<p>We can use this transition matrix if we are given an initial population and some starting conditions. (Reminder: you can see the full system <a href= "https://github.com/ChloeRickards/chloerickards.github.io/blob/master/files/GeneDriveModel_full.ipynb">here</a>.) Now, we can observe how the genotypes change over several generations. If the gene drive works well, then the proportion of snails homozygous for the gene drive (genotype $GG$) should rise fairly quickly.</p>
+<p>We can use this transition matrix if we are given an initial population and some starting conditions. (Reminder: you can see the full system <a href= "https://github.com/ChloeRickards/chloerickards.github.io/blob/master/files/GeneDriveModel_full.ipynb">here</a>.) Now, we can observe how the genotypes change over several generations. If the gene drive works well, then the proportion of snails homozygous for the gene drive (genotype <b><i>GG</i></b>) should rise fairly quickly.</p>
 
 <div class="box">
 <p>
-	<span class="image fit"><img src="{% link assets/images/notebooks_Snails_15_0.png %}" alt="" /></span> <b>Figure 1.</b> Genotype proportions in a snail population over time. The homozygous gene drive genotype $GG$ rises to fixation within 40 generations. The high infection levels favor the resistant and less costly $BB$ genotype for a while, but the selfish genetic element of the gene drive eventually causes the $GG$ genotype to dominate the population. Even though the $G$ allele shares the same level of resistance and incurs more fitness cost than the $B$ allele, the non-Mendelian inheritance pattern of the $G$ allele wins out in the end.</p>
+	<span class="image fit"><img src="{% link assets/images/notebooks_Snails_15_0.png %}" alt="" /></span> <b>Figure 1.</b> Genotype proportions in a snail population over time. The homozygous gene drive genotype <b><i>GG</i></b> rises to fixation within 40 generations. The high infection levels favor the resistant and less costly <b><i>BB</i></b> genotype for a while, but the selfish genetic element of the gene drive eventually causes the <b><i>GG</i></b> genotype to dominate the population. Even though the <b><i>G</i></b> allele shares the same level of resistance and incurs more fitness cost than the <b><i>B</i></b> allele, the non-Mendelian inheritance pattern of the <b><i>G</i></b> allele wins out in the end.</p>
 </div>
 
 <h2 id="nextsteps">The Next Steps</h2>
 
 
-<p>This exercise demonstrated what would happen to a theoretical population of freshwater snails after a gene drive is introduced to the population. How, then, can we use the information given by this model? One thing we can do is run a <b>sensitivity analysis</b> to assess which parameters contribute the most to the success of the gene drive, as measured by the percentage of $GG$ genotype by generation 100. This can give us input about how and where to apply a gene drive. For example, if the most senstive parameters are dependent on external conditions (such as $\beta$, the infection rate; or $r$, the growth rate), then the success of the gene drive may lie in local environmental conditions. If the most sensitive parameters are dependent on genetic conditions (such as $g$, the gene drive efficiency; or $\xi$, the level of disease resistance), then the success of the gene drive may lie in the design of the gene drive itself.</p>
+<p>This exercise demonstrated what would happen to a theoretical population of freshwater snails after a gene drive is introduced to the population. How, then, can we use the information given by this model? One thing we can do is run a <b>sensitivity analysis</b> to assess which parameters contribute the most to the success of the gene drive, as measured by the percentage of <b><i>GG</i></b> genotype by generation 100. This can give us input about how and where to apply a gene drive. For example, if the most senstive parameters are dependent on external conditions (such as &beta;, the infection rate; or <b><i>r</i></b>, the growth rate), then the success of the gene drive may lie in local environmental conditions. If the most sensitive parameters are dependent on genetic conditions (such as <b><i>g</i></b>, the gene drive efficiency; or &xi;, the level of disease resistance), then the success of the gene drive may lie in the design of the gene drive itself.</p>
 
 
 <div class="box">
-<p><span class="image fit"><img src="{% link assets/images/SA-fig.png %}" alt="" /></span><b>Figure 2.</b> Sobol sensitivity analysis, measuring the sensitivity of all of the parameters to the number of infected snails at t=99. The parameter with the highest sensitivity index is beta, or $\beta$ the force of infection on the snails. This suggests that the higher the infection level in the environment, the more successfully a resistance-inducing gene drive will perform!.</p>
+<p><span class="image fit"><img src="{% link assets/images/SA-fig.png %}" alt="" /></span><b>Figure 2.</b> Sobol sensitivity analysis, measuring the sensitivity of all of the parameters to the number of infected snails at t=99. The parameter with the highest sensitivity index is beta, or &beta; the force of infection on the snails. This suggests that the higher the infection level in the environment, the more successfully a resistance-inducing gene drive will perform!.</p>
 </div>
+
