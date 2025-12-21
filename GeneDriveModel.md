@@ -132,7 +132,8 @@ def get_transition_matrix(genotypes, previous_gen_proportions):
 <p>We can use this transition matrix if we are given an initial population and some starting conditions. (Reminder: you can see the full system <a href= "https://github.com/ChloeRickards/chloerickards.github.io/blob/master/files/GeneDriveModel_full.ipynb">here</a>.) Now, we can observe how the genotypes change over several generations. If the gene drive works well, then the proportion of snails homozygous for the gene drive (genotype $GG$) should rise fairly quickly.</p>
 
 <div class="box">
-<p><span class="image left"><img src="{% link assets/images/notebooks_Snails_15_0.png %}" alt="" /></span>**Figure 1.** Genotype proportions in a snail population over time. The homozygous gene drive genotype $GG$ rises to fixation within 40 generations. The high infection levels favor the resistant and less costly $BB$ genotype for a while, but the selfish genetic element of the gene drive eventually causes the $GG$ genotype to dominate the population. Even though the $G$ allele shares the same level of resistance and incurs more fitness cost than the $B$ allele, the non-Mendelian inheritance pattern of the $G$ allele wins out in the end.</p>
+<p>
+	<span class="image fit"><img src="{% link assets/images/notebooks_Snails_15_0.png %}" alt="" /></span> <b>Figure 1.</b> Genotype proportions in a snail population over time. The homozygous gene drive genotype $GG$ rises to fixation within 40 generations. The high infection levels favor the resistant and less costly $BB$ genotype for a while, but the selfish genetic element of the gene drive eventually causes the $GG$ genotype to dominate the population. Even though the $G$ allele shares the same level of resistance and incurs more fitness cost than the $B$ allele, the non-Mendelian inheritance pattern of the $G$ allele wins out in the end.</p>
 </div>
 
 <h2 id="nextsteps">The Next Steps</h2>
@@ -142,10 +143,5 @@ def get_transition_matrix(genotypes, previous_gen_proportions):
 
 
 <div class="box">
-<p><span class="image right"><img src="{% link assets/images/SA-fig.png %}" alt="" /></span><b>Figure 2.</b> Sobol sensitivity analysis, measuring the sensitivity of all of the parameters to the number of infected snails at t=99. The parameter with the highest sensitivity index is beta, or $\beta$ the force of infection on the snails. This suggests that the higher the infection level in the environment, the more successfully a resistance-inducing gene drive will perform!.</p>
+<p><span class="image fit"><img src="{% link assets/images/SA-fig.png %}" alt="" /></span><b>Figure 2.</b> Sobol sensitivity analysis, measuring the sensitivity of all of the parameters to the number of infected snails at t=99. The parameter with the highest sensitivity index is beta, or $\beta$ the force of infection on the snails. This suggests that the higher the infection level in the environment, the more successfully a resistance-inducing gene drive will perform!.</p>
 </div>
-
-</div>
-</section>
-</div>
-
