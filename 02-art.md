@@ -17,7 +17,7 @@ nav-menu: true
 		<header class="major">
 			<h2>Curating Curiosity</h2>
 		</header>
-		<p>One common theme runs throughout all of my creations: curiosity. From investigating the intricacies of nature in watercolor to exploring every rabbit hole in an immersive experience, I use art as a tool of discovery. My current projects include:
+		<p>One common theme runs throughout all of my creations: curiosity. From investigating the intricacies of nature in watercolor to exploring every rabbit hole in an immersive experience, I use art as a tool for discovery. My current projects include:
 			<ul>
 				<li> Watercolor and graphite designs for singer/songwriter <a href = "https://www.rosesbyothernames.com/">Ilia Rose</a></li>
 				<li> Needlefelted dioramas for the <a href = "https://www.sccmod.org/">Santa Cruz Children's Museum of Discovery</a></li>
@@ -25,6 +25,22 @@ nav-menu: true
 				<li> An interactive play about an AI possessed by a demon</li>
 			</ul>
 		</p>
+		<!-- Watercolors -->
+		<header class="major">
+			<h2>Watercolors</h2>
+		</header>
+		<div class="box alt">
+			<div class="row 50% uniform">
+				<div class="4u"><span class="image fit"><img src="{% link assets/images/leftbrain.jpg %}" alt="" /></span></div>
+				<div class="4u"><span class="image fit"><img src="{% link assets/images/rightbrain.jpg %}" alt="" /></span></div>
+				<!-- Break -->
+				<div class="4u"><span class="image fit"><img src="{% link assets/images/leftbrain.jpg %}" alt="" /></span></div>
+				<div class="4u"><span class="image fit"><img src="{% link assets/images/rightbrain.jpg %}" alt="" /></span></div>
+					<!-- Break -->
+				<div class="4u"><span class="image fit"><img src="{% link assets/images/leftbrain.jpg %}" alt="" /></span></div>
+				<div class="4u"><span class="image fit"><img src="{% link assets/images/rightbrain.jpg %}" alt="" /></span></div>
+			</div>
+		</div>
 	</div>
 </section>
 
