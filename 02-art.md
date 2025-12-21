@@ -31,14 +31,14 @@ nav-menu: true
 		</header>
 		<div class="box alt">
 			<div class="row 50% uniform">
-				<div class="4u"><span class="image fit"><img src="{% link assets/images/leftbrain.jpg %}" alt="" /></span></div>
-				<div class="4u"><span class="image fit"><img src="{% link assets/images/rightbrain.jpg %}" alt="" /></span></div>
+				<div class="6u"><span class="image fit"><img src="{% link assets/images/leftbrain.jpg %}" alt="" /></span></div>
+				<div class="6u$"><span class="image fit"><img src="{% link assets/images/rightbrain.jpg %}" alt="" /></span></div>
 				<!-- Break -->
-				<div class="4u"><span class="image fit"><img src="{% link assets/images/leftbrain.jpg %}" alt="" /></span></div>
-				<div class="4u"><span class="image fit"><img src="{% link assets/images/rightbrain.jpg %}" alt="" /></span></div>
+				<div class="6u"><span class="image fit"><img src="{% link assets/images/leftbrain.jpg %}" alt="" /></span></div>
+				<div class="6u$"><span class="image fit"><img src="{% link assets/images/rightbrain.jpg %}" alt="" /></span></div>
 					<!-- Break -->
-				<div class="4u"><span class="image fit"><img src="{% link assets/images/leftbrain.jpg %}" alt="" /></span></div>
-				<div class="4u"><span class="image fit"><img src="{% link assets/images/rightbrain.jpg %}" alt="" /></span></div>
+				<div class="6u"><span class="image fit"><img src="{% link assets/images/leftbrain.jpg %}" alt="" /></span></div>
+				<div class="6u$"><span class="image fit"><img src="{% link assets/images/rightbrain.jpg %}" alt="" /></span></div>
 			</div>
 		</div>
 	</div>
