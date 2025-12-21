@@ -19,7 +19,7 @@ nav-menu: false
 
 <p> For more information about this system, see <a href= "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0010894">Grewelle et al. 2022</a>.</p>
 
-<p> This is a truncated Markdown version of a Jupyter Notebook. To view the full notebook, <a href= "https://github.com/ChloeRickards/chloerickards.github.io/blob/master/files/GeneDriveModel_full.ipynb">click here</a>. </p>
+<p> This is a truncated Markdown version of a Jupyter Notebook. To view the full notebook, <a href= "https://github.com/ChloeRickards/chloerickards.github.io/blob/master/assets/GeneDriveModel_full.ipynb">click here</a>. </p>
 
 <h3 id="toc">Table of Contents</h2>
 <ol>
@@ -131,7 +131,7 @@ def get_transition_matrix(genotypes, previous_gen_proportions):
 <h2 id="genotypes">The Genotypes over Time</h2>
 
 
-<p>We can use this transition matrix if we are given an initial population and some starting conditions. (Reminder: you can see the full system <a href= "https://github.com/ChloeRickards/chloerickards.github.io/blob/master/files/GeneDriveModel_full.ipynb">here</a>.) Now, we can observe how the genotypes change over several generations. If the gene drive works well, then the proportion of snails homozygous for the gene drive (genotype <b><i>GG</i></b>) should rise fairly quickly.</p>
+<p>We can use this transition matrix if we are given an initial population and some starting conditions. (Reminder: you can see the full system <a href= "https://github.com/ChloeRickards/chloerickards.github.io/blob/master/assets/GeneDriveModel_full.ipynb">here</a>.) Now, we can observe how the genotypes change over several generations. If the gene drive works well, then the proportion of snails homozygous for the gene drive (genotype <b><i>GG</i></b>) should rise fairly quickly.</p>
 
 <div class="box">
 <p>
@@ -147,4 +147,5 @@ def get_transition_matrix(genotypes, previous_gen_proportions):
 <div class="box">
 <p><span class="image fit"><img src="{% link assets/images/SA-fig.png %}" alt="" /></span><b>Figure 2.</b> Sobol sensitivity analysis, measuring the sensitivity of all of the parameters to the number of infected snails at t=99. The parameter with the highest sensitivity index is beta, or &beta; the force of infection on the snails. This suggests that the higher the infection level in the environment, the more successfully a resistance-inducing gene drive will perform!.</p>
 </div>
+
 
