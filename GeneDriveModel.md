@@ -13,7 +13,7 @@ nav-menu: false
 
 <h2 id="summary">Summary</h2>
 
-<p>As genetic engineering becomes easier and cheaper, its potential for improving global health continues to grow. This theoretical model examines the potential application of a CRISPR-Cas9 gene drive to a population of *Biomphalaria glabrata* snails, the intermediate host for the neglected tropical disease schistosomiasis. This system is of special interest because these snails reproduce both sexually and asexually. This model shows the outcome of a gene drive in a scenario where asexual reproduction has to be considered. </p>
+<p>As genetic engineering becomes easier and cheaper, its potential for improving global health continues to grow. This theoretical model examines the potential application of a CRISPR-Cas9 gene drive to a population of <i>Biomphalaria glabrata</i> snails, the intermediate host for the neglected tropical disease schistosomiasis. This system is of special interest because these snails reproduce both sexually and asexually. This model shows the outcome of a gene drive in a scenario where asexual reproduction has to be considered. </p>
 
 <p><b>Tools used in this demo:</b> Python, pandas, NumPy, matplotlib, sensitivity analysis, population genetics, Markov process, parameter optimization </p>
 
@@ -40,7 +40,7 @@ nav-menu: false
 
 <h2 id="tm">The Transision Matrix</h2>
 
-<p>To model this situation, we start with characterizing our **alleles**. Each allele is associated with a growth rate and a level of disease resistance. The two characteristics are related; disease resistance often comes at a cost to fecundity or competitive ability. So, an allele that confers disease resistance will have a lower growth rate. Gene drive alleles will also have a lower growth rate - both from the disease resistance and from the gene drive itself. </p>
+<p>To model this situation, we start with characterizing our <b>alleles</b>. Each allele is associated with a growth rate and a level of disease resistance. The two characteristics are related; disease resistance often comes at a cost to fecundity or competitive ability. So, an allele that confers disease resistance will have a lower growth rate. Gene drive alleles will also have a lower growth rate - both from the disease resistance and from the gene drive itself. </p>
 
 <p>Alleles mix and match during reproduction to form genotypes, and we are interested in tracking the change of genotype proportions over time.The goal of this model is to observe how the population genetics of a snail population change over time (measured in generations of snails). To do this, we set up a transition matrix (Grewelle et al. 2022), which tracks how genotypes change from one generation to the next. The following algorithm constructs the matrix by examining all combinations of genotype crossings - both in sexual reproduction (or outcrossing) and asexual reproduction (or selfing).</p>
 
@@ -147,5 +147,6 @@ def get_transition_matrix(genotypes, previous_gen_proportions):
 <div class="box">
 <p><span class="image fit"><img src="{% link assets/images/SA-fig.png %}" alt="" /></span><b>Figure 2.</b> Sobol sensitivity analysis, measuring the sensitivity of all of the parameters to the number of infected snails at t=99. The parameter with the highest sensitivity index is beta, or &beta; the force of infection on the snails. This suggests that the higher the infection level in the environment, the more successfully a resistance-inducing gene drive will perform!.</p>
 </div>
+
 
 
