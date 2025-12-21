@@ -17,10 +17,10 @@ nav-menu: true
 		<header class="major">
 			<h2>Curating Curiosity</h2>
 		</header>
-		<p>One common theme runs throughout all of my creations: curiosity. From investigating the intricacies of nature through watercolors to exploring every rabbit hole in an immersive experience, I use art as a tool of discovery. My current projects include:
+		<p>One common theme runs throughout all of my creations: curiosity. From investigating the intricacies of nature in watercolor to exploring every rabbit hole in an immersive experience, I use art as a tool of discovery. My current projects include:
 			<ul>
-				<li> Watercolor and graphite designs for singer/songwriter Ilia Rose</li>
-				<li> Needlefelted dioramas for the Santa Cruz Children's Museum of Discovery</li>
+				<li> Watercolor and graphite designs for singer/songwriter <a href = "https://www.rosesbyothernames.com/">Ilia Rose</a></li>
+				<li> Needlefelted dioramas for the <a href = "https://www.sccmod.org/">Santa Cruz Children's Museum of Discovery</a></li>
 				<li> Mural-making for local Santa Cruz businesses</li>	
 				<li> An interactive play about an AI possessed by a demon</li>
 			</ul>
