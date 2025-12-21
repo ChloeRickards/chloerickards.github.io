@@ -21,7 +21,7 @@ nav-menu: false
 
 <p> This is a truncated Markdown version of a Jupyter Notebook. To view the full notebook, <a href= "https://github.com/ChloeRickards/chloerickards.github.io/blob/master/assets/GeneDriveModel_full.ipynb">click here</a>. </p>
 
-<h3 id="toc">Table of Contents</h2>
+<h3 id="toc">Table of Contents</h3>
 <ol>
 	<li><a href= "#system">The System</a></li>
 	<li><a href = "#tm">The Transition Matrix</a></li>
@@ -147,6 +147,7 @@ def get_transition_matrix(genotypes, previous_gen_proportions):
 <div class="box">
 <p><span class="image fit"><img src="{% link assets/images/SA-fig.png %}" alt="" /></span><b>Figure 2.</b> Sobol sensitivity analysis, measuring the sensitivity of all of the parameters to the number of infected snails at t=99. The parameter with the highest sensitivity index is beta, or &beta; the force of infection on the snails. This suggests that the higher the infection level in the environment, the more successfully a resistance-inducing gene drive will perform!.</p>
 </div>
+
 
 
 
