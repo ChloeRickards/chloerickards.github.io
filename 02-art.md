@@ -78,15 +78,17 @@ nav-menu: true
 			<h2>Educational Materials</h2>
 		</header>
 		<h3>Zines</h3>
-		<!--<input type="checkbox" id="cover_checkbox" class="flip_trigger">-->
+		<input type="checkbox" id="cover_checkbox" class="flip_trigger">
         <input type="checkbox" id="page1_checkbox" class="flip_trigger">
         <input type="checkbox" id="page2_checkbox" class="flip_trigger">
         <!-- Flip Book https://github.com/fchavonet/creative_coding-flip_book/blob/main/index.html -->
 		<div style="display: flex; justify-content: center; align-items: center; min-height: 500px;">
 	        <div id="flip_book">
-	            <!-- <div class="front_cover">
-	                <label for="cover_checkbox" id="cover"></label>
-	            </div> -->
+	            <div class="front_cover">
+	                <label for="cover_checkbox" id="cover">
+						<img src="{% link assets/images/ribeiroia_sneakpeek.webp %}" style="width:100%; height:100%;" alt="Cover - Sketched-out form of a mini magazine on Ribeiroia">
+					</label>
+	            </div>
 	            <div class="page" id="page1">
 	                <div class="front_page">
 	                    <label for="page1_checkbox"></label>
