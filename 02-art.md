@@ -108,7 +108,7 @@ nav-menu: true
 	                <div class="back_page">
 	                    <label for="page2_checkbox"></label>
 	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
-	                    <img class="back_content" src="{% link assets/images/pages/cordyceps_sneakpeek.webp %}" alt="Sketches of a mini-magazine on Cordyceps">
+	                    <img class="back_content" src="{% link assets/images/cordyceps_sneakpeek.webp %}" alt="Sketches of a mini-magazine on Cordyceps">
 	                </div>
 	            </div>
 	            <div class="back_cover"></div> 
