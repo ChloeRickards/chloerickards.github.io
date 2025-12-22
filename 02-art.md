@@ -25,6 +25,7 @@ nav-menu: true
 				<li> An interactive play about an AI possessed by a demon</li>
 			</ul>
 		</p>
+		<hr />
 		<!-- Watercolors -->
 		<header class="major">
 			<h2>Watercolors</h2>
