@@ -90,25 +90,25 @@ nav-menu: true
 	            <div class="page" id="page1">
 	                <div class="front_page">
 	                    <label for="page1_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-	                    <img class="front_content" src="{% link assets/images/ribeiroia_sneakpeek.webp" alt="Sketched-out form of a mini magazine on Ribeiroia">
+	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
+	                    <img class="front_content" src="{% link assets/images/ribeiroia_sneakpeek.webp %}" alt="Sketched-out form of a mini magazine on Ribeiroia">
 	                </div>
 	                <div class="back_page">
 	                    <label for="page1_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-	                    <img class="back_content" src="{% link assets/images/leftbrain.webp" alt="Graphite drawing of the left hemisphere of the brain.">
+	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
+	                    <img class="back_content" src="{% link assets/images/leftbrain.webp %}" alt="Graphite drawing of the left hemisphere of the brain.">
 	                </div>
 	            </div>
 	            <div class="page" id="page2">
 	                <div class="front_page">
 	                    <label for="page2_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-	                    <img class="front_content" src="{% link assets/images/rightbrain.webp" alt="Watercolor of the right hemisphere of the brain">
+	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
+	                    <img class="front_content" src="{% link assets/images/rightbrain.webp %}" alt="Watercolor of the right hemisphere of the brain">
 	                </div>
 	                <div class="back_page">
 	                    <label for="page2_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-	                    <img class="back_content" src="{% link assets/images/pages/cordyceps_sneakpeek.webp" alt="Sketches of a mini-magazine on Cordyceps">
+	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
+	                    <img class="back_content" src="{% link assets/images/pages/cordyceps_sneakpeek.webp %}" alt="Sketches of a mini-magazine on Cordyceps">
 	                </div>
 	            </div>
 	            <div class="back_cover"></div> 
