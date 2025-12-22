@@ -78,10 +78,11 @@ nav-menu: true
 			<h2>Educational Materials</h2>
 		</header>
 		<h3>Zines</h3>
+		<!--
 		<input type="checkbox" id="cover_checkbox">
         <input type="checkbox" id="page1_checkbox">
         <input type="checkbox" id="page2_checkbox">
-        <!-- Flip Book https://github.com/fchavonet/creative_coding-flip_book/blob/main/index.html --> 
+        <!-- Flip Book https://github.com/fchavonet/creative_coding-flip_book/blob/main/index.html
         <div id="flip_book">
             <div class="front_cover">
                 <label for="cover_checkbox" id="cover"></label>
@@ -110,8 +111,8 @@ nav-menu: true
                     <img class="back_content" src="./assets/images/pages/cordyceps_sneakpeek.webp" alt="Back content">
                 </div>
             </div>
-            <div class="back_cover"></div>
-        </div>
+            <div class="back_cover"></div> 
+        </div> -->
 	</div>
 </section>
 
