@@ -19,7 +19,7 @@ $page-height: 400px;
         align-items: center;
         border-radius: 2.5px 5px 5px 2.5px;
         background: {
-            image: url(./assets/images/flip_book_edge_shading.webp);
+            image: url("..images/flip_book_edge_shading.webp");
             size: cover;
             position: center;
             repeat: no-repeat;
@@ -117,7 +117,7 @@ $page-height: 400px;
 #page5 { z-index: 2; }
 
 /* CHECKBOX LOGIC (State Management) */
-#cover_checkbox:checked ~ #flip_book {
+/* #cover_checkbox:checked ~ #flip_book {
     transform: translateX(144px);
     .front_cover {
         transform: rotateY(-180deg);
@@ -129,7 +129,7 @@ $page-height: 400px;
         height: 80%;
         position: absolute;
     }
-}
+} */
 
 /* PAGE TURNS */
 @for $i from 1 through 5 {
