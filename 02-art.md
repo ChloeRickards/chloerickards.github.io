@@ -28,18 +28,48 @@ nav-menu: true
 		<hr />
 		<!-- Watercolors -->
 		<header class="major">
-			<h2>Watercolors</h2>
+			<h2>Selected Watercolors</h2>
 		</header>
 		<div class="box alt">
 			<div class="row 50% uniform">
-				<div class="6u"><span class="image fit"><img src="{% link assets/images/leftbrain.jpg %}" alt="" /></span></div>
-				<div class="6u$"><span class="image fit"><img src="{% link assets/images/rightbrain.jpg %}" alt="" /></span></div>
+				<div class="6u">
+					<span class="image fit"><img src="{% link assets/images/freakyfrog.jpg %}" alt="Watercolor of a squat frog with a leg deformity" /></span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						<i>Pacific Chorus Frog infected with a Ribeiroia parasite</i>, 2025. Featured in <i>The Art of Nature</i> exhibit at the Santa Cruz Museum of Natural History
+					</p>
+				</div>
+				<div class="6u$">
+					<span class="image fit"><img src="{% link assets/images/tulips.jpg %}" alt="Watercolor of a colorful tulip bouquet" /></span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						<i>Tulips for Irina</i>, 2025.
+					</p>
+				</div>
 				<!-- Break -->
-				<div class="6u"><span class="image fit"><img src="{% link assets/images/leftbrain.jpg %}" alt="" /></span></div>
-				<div class="6u$"><span class="image fit"><img src="{% link assets/images/rightbrain.jpg %}" alt="" /></span></div>
+				<div class="6u">
+					<span class="image fit"><img src="{% link assets/images/audreyII.jpg %}" alt="Watercolor of a drooling Audrey II, an alien carnivorous plant from Little Shop of Horrors" /></span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						<i>Audrey II</i>, 2025.
+					</p>
+				</div>
+				<div class="6u$">
+					<span class="image fit"><img src="{% link assets/images/tigerbeetle.jpg %}" alt="Watercolor of an Ohlone Tiger Beetle with sharp pincing jaws and a shiny green carapace" /></span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						<i>Ohlone Tiger Beetle</i>, 2024.
+					</p>
+				</div>
 					<!-- Break -->
-				<div class="6u"><span class="image fit"><img src="{% link assets/images/leftbrain.jpg %}" alt="" /></span></div>
-				<div class="6u$"><span class="image fit"><img src="{% link assets/images/rightbrain.jpg %}" alt="" /></span></div>
+				<div class="6u">
+					<span class="image fit"><img src="{% link assets/images/leftbrain.jpg %}" alt="Watercolor of a close-up of a bearded dragon eye" /></span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						<i>Savannah's Eye</i>, 2023.
+					</p>
+				</div>
+				<div class="6u$">
+					<span class="image fit"><img src="{% link assets/images/westcliff_flowers.jpg %}" alt="" /></span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						<i>Flowers of West Cliff Drive, Santa Cruz, CA</i>, 2024.
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
