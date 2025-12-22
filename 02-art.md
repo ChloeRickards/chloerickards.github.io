@@ -86,7 +86,9 @@ nav-menu: true
 	        <div id="flip_book">
 	            <div class="front_cover">
 	                <label for="cover_checkbox" id="cover">
-						<img src="{% link assets/images/ribeiroia_sneakpeek.webp %}" style="width:100%; height:100%;" alt="Cover - Sketched-out form of a mini magazine on Ribeiroia">
+						<img src="{% link assets/images/ribeiroia_sneakpeek.webp %}" 
+							style="width:100%; height:100%; object-fit: cover; border-radius: 2.5px 5px 5px 2.5px;" 
+							alt="Cover - Sketched-out form of a mini magazine on Ribeiroia">
 					</label>
 	            </div>
 	            <div class="page" id="page1">
