@@ -177,7 +177,7 @@
     }
 }
 
-@for $i from 1 through $page-count {
+@for $i from 1 through 3 {
     #page#{$i}_checkbox:checked ~ #flip_book #page#{$i} {
         transform: rotateY(-180deg);
         z-index: 10 + $i;
