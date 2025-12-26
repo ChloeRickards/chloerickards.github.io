@@ -1,44 +1,23 @@
-/* FLIP BOOK SETTINGS */
-/*$cover-color: rgb(220, 20, 60);*/ /*removed*/
-$page-width: 288px;
-$page-height: 400px;
 
-#flip_book {
-    width: 298px;
-    height: 420px;
+/* --- SETTINGS & COLORS --- */
+// $cover-color: rgb(220, 20, 60);
+// $page-width: 288px;
+// $page-height: 400px;
+
+.flip_container {
     position: relative;
-    transition-duration: 1s;
     perspective: 2000px;
-    margin: 0 auto; /* Keeps the book centered in its container */ /*added*/
+    margin: 0 auto; 
+    transition-duration: 1s;
 
-    .front_cover, .back_cover {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    // Shared styling for covers and pages
+    .front_cover, .back_cover, .page {
+        position: absolute;
         border-radius: 2.5px 5px 5px 2.5px;
-
-        /* removed start
-        // background: {
-        //     image: url("..images/flip_book_edge_shading.webp");
-        //     size: cover;
-        //     position: center;
-        //     repeat: no-repeat;
-        //     color: $cover-color;
-        // }
-        // box-shadow: 0 0 5px 0 rgba(25, 25, 25, 0.25);
-        removed stop */
-        
-        /* Removed red background and default shading */
-        background-color: transparent !important; /*added*/
-        background-image: none !important; /*added*/
-        box-shadow: none !important; /*added*/
+        background-color: transparent !important;
     }
 
     .front_cover {
-        position: absolute;
         cursor: pointer;
         transform-origin: center left;
         transition: transform 0.5s;
@@ -48,35 +27,21 @@ $page-height: 400px;
             width: 100%;
             height: 100%;
             position: absolute;
-            top: 0; /*added*/
-            left: 0; /*added*/
+            top: 0;
+            left: 0;
             cursor: pointer;
-            z-index: 101; /* Sits on top of the image to catch the click */ /*added*/
+            z-index: 101; // Ensures the click is caught above the image
         }
-
-        /*added start*/
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Fixes stretching/squishing */
-            border-radius: 2.5px 5px 5px 2.5px;
-        }
-        /*added stop*/
     }
 
     .back_cover {
-        position: relative;
-        z-index: -1;
+        z-index: -1; // Sits at the bottom of the stack
     }
 
     .page {
-        width: $page-width;
-        height: $page-height;
         position: absolute;
         top: 10px;
-        left: 1px;
-        border-radius: 0 5px 5px 0;
-        background-color: white;
+        background-color: #e0e7e3;
         transform-origin: left;
         transform-style: preserve-3d;
         transform: rotateY(0deg);
@@ -92,74 +57,290 @@ $page-height: 400px;
                 width: 100%;
                 height: 100%;
                 position: absolute;
-                cursor: pointer;
                 z-index: 100;
+                cursor: pointer;
             }
         }
 
         .back_page {
             transform: rotateY(180deg);
-            z-index: 100;
         }
+    }
+//     .page {
+//         width: $page-width;
+//         height: $page-height;
+//         position: absolute;
+//         top: 10px;
+//         left: 1px;
+//         border-radius: 0 5px 5px 0;
+//         background-color: white;
+//         transform-origin: left;
+//         transform-style: preserve-3d;
+//         transform: rotateY(0deg);
+//         transition-duration: 0.5s;
+
+//         .front_page, .back_page {
+//             width: 100%;
+//             height: 100%;
+//             position: absolute;
+//             backface-visibility: hidden;
+            
+//             label {
+//                 width: 100%;
+//                 height: 100%;
+//                 position: absolute;
+//                 cursor: pointer;
+//                 z-index: 100;
+//             }
+//         }
+
+//         .back_page {
+//             transform: rotateY(180deg);
+//             z-index: 100;
+//         }
+//     }
+
+    // Universal image handling
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; // Fills the container without distortion
+        border-radius: 2.5px 5px 5px 2.5px;
     }
 
     .edge_shading {
-        width: $page-width;
-        height: $page-height;
+        width: 100%;
+        height: 100%;
         position: absolute;
         z-index: 98;
-        background-image: url("../images/flip_book_edge_shading.webp"); /*added*/
-        background-size: cover; /*added*/
-    }
-
-    .front_content, .back_content {
-        width: 287px;
-        height: 398px;
-        position: absolute;
-        top: 1px;
-        object-fit: cover;
-    }
-
-    .front_content {
-        border-radius: 0 5px 5px 0;
-        z-index: 97;
-    }
-
-    .back_content {
-        left: 1px;
-        border-radius: 5px 0 0 5px;
-        z-index: 97;
+        background-image: url("../images/flip_book_edge_shading.webp");
+        background-size: cover;
+        pointer-events: none; // Allows clicks to pass through to the labels
     }
 }
 
-/* INDIVIDUAL PAGE Z-INDEXING */
-#page1 { z-index: 8; }
-#page2 { z-index: 5; }
-#page3 { z-index: 4; }
-#page4 { z-index: 3; }
-#page5 { z-index: 2; }
+.landscape-book {
+    width: 600px;
+    height: 450px;
+    .page { 
+        width: 590px; // Slightly narrower to stay inside the cover
+        height: 430px; 
+        top: 10px; 
+        left: 2px; 
+    }
+}
 
-/* CHECKBOX LOGIC (State Management) */
-#cover_checkbox:checked ~ #flip_book {
-    transform: translateX(144px);
+/* Original Portrait Book dimensions */
+.portrait-book {
+    width: 298px;
+    height: 420px;
+    .page { 
+        width: 288px; 
+        height: 400px; 
+        top: 10px; 
+        left: 1px; 
+    }
+}
+
+/* --- 4. Z-INDEX STACKING (7 Pages) --- */
+/* Page 1 on top, Page 7 at the bottom */
+#page1, #sketchbook_page1 { z-index: 10; }
+#page2, #sketchbook_page2 { z-index: 9; }
+#page3, #sketchbook_page3 { z-index: 8; }
+#page4, #sketchbook_page4 { z-index: 7; }
+#page5, #sketchbook_page5 { z-index: 6; }
+#page6, #sketchbook_page6 { z-index: 5; }
+#page7, #sketchbook_page7 { z-index: 4; }
+
+/* --- 5. CHECKBOX LOGIC (Landscape - L_ IDs) --- */
+#sketchbook_cover_checkbox:checked ~ #sketchbook_flip_book {
+    transform: translateX(300px); // Shifts 50% of 600px width
     .front_cover {
         transform: rotateY(-180deg);
-        transition: transform 1.5s, z-index 0.5s 0.5s;
         z-index: 1;
     }
-    /* removed start
-    #cover {
-        width: 80%;
-        height: 80%;
-        position: absolute;
-    } 
-    removed end */
 }
 
-/* PAGE TURNS */
-@for $i from 1 through 5 {
-    #page#{$i}_checkbox:checked ~ #flip_book #page#{$i} {
+@for $i from 1 through 7 {
+    #sketchbook_page#{$i}_checkbox:checked ~ #sketchbook_flip_book #sketchbook_page#{$i} {
         transform: rotateY(-180deg);
-        z-index: 3 + $i; // Dynamically adjusts z-index as you flip
+        z-index: 10 + $i; // Stacks flipped pages correctly on the left
     }
 }
+
+/* --- 6. CHECKBOX LOGIC (Portrait - Original IDs) --- */
+#cover_checkbox:checked ~ #flip_book {
+    transform: translateX(144px); // Shifts 50% of 288px width
+    .front_cover {
+        transform: rotateY(-180deg);
+        z-index: 1;
+    }
+}
+
+@for $i from 1 through $page-count {
+    #page#{$i}_checkbox:checked ~ #flip_book #page#{$i} {
+        transform: rotateY(-180deg);
+        z-index: 10 + $i;
+    }
+}
+    
+// #flip_book {
+//     width: 298px;
+//     height: 420px;
+//     position: relative;
+//     transition-duration: 1s;
+//     perspective: 2000px;
+//     margin: 0 auto; /* Keeps the book centered in its container */ /*added*/
+
+//     .front_cover, .back_cover {
+//         width: 100%;
+//         height: 100%;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//         border-radius: 2.5px 5px 5px 2.5px;
+
+//         /* removed start
+//         // background: {
+//         //     image: url("..images/flip_book_edge_shading.webp");
+//         //     size: cover;
+//         //     position: center;
+//         //     repeat: no-repeat;
+//         //     color: $cover-color;
+//         // }
+//         // box-shadow: 0 0 5px 0 rgba(25, 25, 25, 0.25);
+//         removed stop */
+        
+//         /* Removed red background and default shading */
+//         background-color: transparent !important; /*added*/
+//         background-image: none !important; /*added*/
+//         box-shadow: none !important; /*added*/
+//     }
+
+//     .front_cover {
+//         position: absolute;
+//         cursor: pointer;
+//         transform-origin: center left;
+//         transition: transform 0.5s;
+//         z-index: 99;
+
+//         label {
+//             width: 100%;
+//             height: 100%;
+//             position: absolute;
+//             top: 0; /*added*/
+//             left: 0; /*added*/
+//             cursor: pointer;
+//             z-index: 101; /* Sits on top of the image to catch the click */ /*added*/
+//         }
+
+//         /*added start*/
+//         img {
+//             width: 100%;
+//             height: 100%;
+//             object-fit: cover; /* Fixes stretching/squishing */
+//             border-radius: 2.5px 5px 5px 2.5px;
+//         }
+//         /*added stop*/
+//     }
+
+//     .back_cover {
+//         position: relative;
+//         z-index: -1;
+//     }
+
+//     .page {
+//         width: $page-width;
+//         height: $page-height;
+//         position: absolute;
+//         top: 10px;
+//         left: 1px;
+//         border-radius: 0 5px 5px 0;
+//         background-color: white;
+//         transform-origin: left;
+//         transform-style: preserve-3d;
+//         transform: rotateY(0deg);
+//         transition-duration: 0.5s;
+
+//         .front_page, .back_page {
+//             width: 100%;
+//             height: 100%;
+//             position: absolute;
+//             backface-visibility: hidden;
+            
+//             label {
+//                 width: 100%;
+//                 height: 100%;
+//                 position: absolute;
+//                 cursor: pointer;
+//                 z-index: 100;
+//             }
+//         }
+
+//         .back_page {
+//             transform: rotateY(180deg);
+//             z-index: 100;
+//         }
+//     }
+
+//     .edge_shading {
+//         width: $page-width;
+//         height: $page-height;
+//         position: absolute;
+//         z-index: 98;
+//         background-image: url("../images/flip_book_edge_shading.webp"); /*added*/
+//         background-size: cover; /*added*/
+//     }
+
+//     .front_content, .back_content {
+//         width: 287px;
+//         height: 398px;
+//         position: absolute;
+//         top: 1px;
+//         object-fit: cover;
+//     }
+
+//     .front_content {
+//         border-radius: 0 5px 5px 0;
+//         z-index: 97;
+//     }
+
+//     .back_content {
+//         left: 1px;
+//         border-radius: 5px 0 0 5px;
+//         z-index: 97;
+//     }
+// }
+
+// /* INDIVIDUAL PAGE Z-INDEXING */
+// #page1 { z-index: 8; }
+// #page2 { z-index: 5; }
+// #page3 { z-index: 4; }
+// #page4 { z-index: 3; }
+// #page5 { z-index: 2; }
+
+// /* CHECKBOX LOGIC (State Management) */
+// #cover_checkbox:checked ~ #flip_book {
+//     transform: translateX(144px);
+//     .front_cover {
+//         transform: rotateY(-180deg);
+//         transition: transform 1.5s, z-index 0.5s 0.5s;
+//         z-index: 1;
+//     }
+//     /* removed start
+//     #cover {
+//         width: 80%;
+//         height: 80%;
+//         position: absolute;
+//     } 
+//     removed end */
+// }
+
+// /* PAGE TURNS */
+// @for $i from 1 through 5 {
+//     #page#{$i}_checkbox:checked ~ #flip_book #page#{$i} {
+//         transform: rotateY(-180deg);
+//         z-index: 3 + $i; // Dynamically adjusts z-index as you flip
+//     }
+// }
