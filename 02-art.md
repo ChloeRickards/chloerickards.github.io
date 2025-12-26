@@ -88,10 +88,13 @@ nav-menu: true
 	        <div id="sketchbook" class = "flip_container landscape-book">
 				<!--Cover-->
 	            <div class="front_cover">
-	                <label for="sketchbook_cover_checkbox">
-						<img src="{% link assets/images/sketchbook.webp %}" 
-							alt="Sketchbook cover">
-					</label>
+					<div class="front_page_cover">
+		                <label for="sketchbook_cover_checkbox">
+							<img src="{% link assets/images/sketchbook.webp %}" 
+								alt="Sketchbook cover">
+						</label>
+					</div>
+					<div class="back_page_cover"></div>
 	            </div>
 				<!--Page 1-->
 	            <div class="page" id="sketchbook_page1">
