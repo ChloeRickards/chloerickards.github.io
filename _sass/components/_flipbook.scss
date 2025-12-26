@@ -9,15 +9,15 @@
     .front_cover, .back_cover, .page {
         position: absolute;
         border-radius: 2.5px 5px 5px 2.5px;
-        background-color: #e0e7e3
     }
 
     .front_cover {
         cursor: pointer;
+        background-color: #27B067;
         transform-origin: center left;
         transition: transform 0.5s;
         z-index: 100 !important;
-        backface-visibility: hidden;
+        //backface-visibility: hidden;
         transform-style: preserve-3d;
 
         label {
@@ -33,6 +33,7 @@
     }
 
     .back_cover {
+        background-color: #27B067;
         z-index: -1; // Sits at the bottom of the stack
     }
 
