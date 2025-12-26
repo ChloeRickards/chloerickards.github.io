@@ -88,7 +88,7 @@ nav-menu: true
 	        <div id="sketchbook" class = "flip_container landscape-book">
 				<!--Cover-->
 	            <div class="front_cover">
-	                <label for="sketchbook_cover_checkbox" id="sketchbook_cover">
+	                <label for="sketchbook_cover_checkbox">
 						<img src="{% link assets/images/sketchbook.webp %}" 
 							alt="Sketchbook cover">
 					</label>
@@ -204,10 +204,12 @@ nav-menu: true
                 <div class="page" id="C_page1">
                     <div class="front_page">
                         <label for="C_page1_checkbox"></label>
+						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
                         <img src="{% link assets/images/crow.webp %}" alt="Cordyceps Front">
                     </div>
                     <div class="back_page">
                         <label for="C_page2_checkbox"></label>
+						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
                         <img src="{% link assets/images/pug.webp %}" alt="Cordyceps Page 2">
                     </div>
                 </div>
@@ -215,10 +217,12 @@ nav-menu: true
 				<div class="page" id="C_page2">
 					<div class="front_page">
         				<label for="C_page2_checkbox"></label>
+						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
         				<img src="{% link assets/images/towhee.webp %}" alt="Cordyceps Page 3">
     				</div>
     				<div class="back_page">
         				<label for="C_page3_checkbox"></label>
+						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
         				<img src="{% link assets/images/mosquito.webp %}" alt="Cordyceps Page 4">
     				</div>
 				</div>
@@ -226,20 +230,24 @@ nav-menu: true
 				<div class="page" id="C_page3">
     				<div class="front_page">
         				<label for="C_page3_checkbox"></label>
+						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
         				<img src="{% link assets/images/crow.webp %}" alt="Cordyceps Page 5">
     				</div>
     				<div class="back_page">
         				<label for="C_page4_checkbox"></label>
+						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
         				<img src="{% link assets/images/pug.webp %}" alt="Cordyceps Page 6">
     				</div>
 				</div>
 				<!-- Page 4-->
 				<div class="page" id="C_page4">
 				    <div class="front_page">
-				        <label for="C_page4_checkbox"></label>
+				        <label for="C_page4_checkbox"></label>'
+						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
 				        <img src="{% link assets/images/towhee.webp %}" alt="Cordyceps Page 7">
 				    </div>
 				    <div class="back_page">
+						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
 				        <img src="{% link assets/images/mosquito.webp %}" alt="Cordyceps Page 8">
 				    </div>
 				</div>
@@ -254,10 +262,12 @@ nav-menu: true
                 <div class="page" id="F_page1">
                     <div class="front_page">
                         <label for="F_page1_checkbox"></label>
+						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
                         <img src="{% link assets/images/mosquito.webp %}" alt="Frog Zine Front">
                     </div>
                     <div class="back_page">
                         <label for="F_page2_checkbox"></label>
+						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
                         <img src="{% link assets/images/towhee.webp %}" alt="Frog Zine Page 2">
                     </div>
                 </div>
@@ -265,10 +275,12 @@ nav-menu: true
 				<div class="page" id="F_page2">
 				    <div class="front_page">
 				        <label for="F_page2_checkbox"></label>
+						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
 				        <img src="{% link assets/images/crow.webp %}" alt="Frog Page 3">
 				    </div>
 				    <div class="back_page">
 				        <label for="F_page3_checkbox"></label>
+						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
 				        <img src="{% link assets/images/pug.webp %}" alt="Frog Page 4">
 				    </div>
 				</div>
@@ -276,10 +288,12 @@ nav-menu: true
 				<div class="page" id="F_page3">
 				    <div class="front_page">
 				        <label for="F_page3_checkbox"></label>
+						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
 				        <img src="{% link assets/images/crow.webp %}" alt="Frog Page 5">
 				    </div>
 				    <div class="back_page">
 				        <label for="F_page4_checkbox"></label>
+						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
 				        <img src="{% link assets/images/mosquito.webp %}" alt="Frog Page 6">
 				    </div>
 				</div>
@@ -287,9 +301,11 @@ nav-menu: true
 				<div class="page" id="F_page4">
 				    <div class="front_page">
 				        <label for="F_page4_checkbox"></label>
+						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
 				        <img src="{% link assets/images/towhee.webp %}" alt="Frog Page 7">
 				    </div>
 				    <div class="back_page">
+						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
 				        <img src="{% link assets/images/pug.webp %}" alt="Frog Page 8">
 				    </div>
 				</div>
