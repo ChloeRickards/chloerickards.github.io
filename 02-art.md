@@ -199,11 +199,11 @@ nav-menu: true
 		<h3>Zines</h3>
 		<p>I make zines (mini-magazines) to accompany scientific lectures. These are sneak peeks of the zines from two "Naturalist Night" lectures from the Santa Cruz Museum of Natural History.</p>
 		<!-- Zine placeholders -->
-		<!-- Cordyceps Zine -->
+		<!-- Cordyceps Zine
 		<div style="display: flex; justify-content: center; align-items: center; min-height: 450px;">
             {% for i in (1..4) %}<input type="checkbox" id="C_page{{ i }}_checkbox" class="flip_trigger">{% endfor %}
             <div id="cordyceps" class="flip_container portrait-book">
-				<!-- Page 1 -->
+				Page 1
                 <div class="page" id="C_page1">
                     <div class="front_page">
                         <label for="C_page1_checkbox"></label>
@@ -216,7 +216,7 @@ nav-menu: true
                         <img src="{% link assets/images/pug.webp %}" alt="Cordyceps Page 2">
                     </div>
                 </div>
-				<!-- Page 2-->
+				<!-- Page 2
 				<div class="page" id="C_page2">
 					<div class="front_page">
         				<label for="C_page2_checkbox"></label>
@@ -229,7 +229,7 @@ nav-menu: true
         				<img src="{% link assets/images/mosquito.webp %}" alt="Cordyceps Page 4">
     				</div>
 				</div>
-				<!-- Page 3-->
+				<!-- Page 3
 				<div class="page" id="C_page3">
     				<div class="front_page">
         				<label for="C_page3_checkbox"></label>
@@ -242,7 +242,7 @@ nav-menu: true
         				<img src="{% link assets/images/pug.webp %}" alt="Cordyceps Page 6">
     				</div>
 				</div>
-				<!-- Page 4-->
+				<!-- Page 4
 				<div class="page" id="C_page4">
 				    <div class="front_page">
 				        <label for="C_page4_checkbox"></label>'
@@ -257,11 +257,11 @@ nav-menu: true
                 <div class="back_cover"></div>
             </div>
         </div>
-		<!-- Frog Zine -->
+		<!-- Frog Zine 
         <div style="display: flex; justify-content: center; align-items: center; min-height: 450px; margin-top: 4em;">
             {% for i in (1..4) %}<input type="checkbox" id="F_page{{ i }}_checkbox" class="flip_trigger">{% endfor %}
             <div id="frog" class="flip_container portrait-book">
-				<!-- Page 1 -->
+				<!-- Page 1 
                 <div class="page" id="F_page1">
                     <div class="front_page">
                         <label for="F_page1_checkbox"></label>
@@ -274,7 +274,7 @@ nav-menu: true
                         <img src="{% link assets/images/towhee.webp %}" alt="Frog Zine Page 2">
                     </div>
                 </div>
-				<!-- Page 2 -->
+				<!-- Page 2 
 				<div class="page" id="F_page2">
 				    <div class="front_page">
 				        <label for="F_page2_checkbox"></label>
@@ -287,7 +287,7 @@ nav-menu: true
 				        <img src="{% link assets/images/pug.webp %}" alt="Frog Page 4">
 				    </div>
 				</div>
-				<!-- Page 3 -->
+				<!-- Page 3 
 				<div class="page" id="F_page3">
 				    <div class="front_page">
 				        <label for="F_page3_checkbox"></label>
@@ -300,7 +300,7 @@ nav-menu: true
 				        <img src="{% link assets/images/mosquito.webp %}" alt="Frog Page 6">
 				    </div>
 				</div>
-				<!-- Page 4 -->
+				<!-- Page 4 
 				<div class="page" id="F_page4">
 				    <div class="front_page">
 				        <label for="F_page4_checkbox"></label>
