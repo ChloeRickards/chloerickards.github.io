@@ -22,14 +22,13 @@ nav-menu: true
 		<header class="major">
 			<h2>Curating Curiosity</h2>
 		</header>
-		<p>One common theme runs throughout all of my creations: curiosity. From investigating the intricacies of nature in watercolor to exploring every rabbit hole in an immersive experience, I use art as a tool for discovery. My current projects include:
-			<ul>
-				<li> Watercolor and graphite designs for singer/songwriter <a href = "https://www.rosesbyothernames.com/">Ilia Rose</a></li>
-				<li> Needlefelted dioramas for the <a href = "https://www.sccmod.org/">Santa Cruz Children's Museum of Discovery</a></li>
-				<li> Mural-making for local Santa Cruz businesses</li>	
-				<li> An interactive play about an AI possessed by a demon</li>
-			</ul>
-		</p>
+		<p>One common theme runs throughout all of my creations: curiosity. From investigating the intricacies of nature in watercolor to exploring every rabbit hole in an immersive experience, I use art as a tool for discovery. My current projects include: </p>
+		<ul>
+			<li> Watercolor and graphite designs for singer/songwriter <a href = "https://www.rosesbyothernames.com/">Ilia Rose</a></li>
+			<li> Needlefelted dioramas for the <a href = "https://www.sccmod.org/">Santa Cruz Children's Museum of Discovery</a></li>
+			<li> Mural-making for local Santa Cruz businesses</li>	
+			<li> An interactive play about an AI possessed by a demon</li>
+		</ul>
 		<hr />
 		<!-- 
 		Watercolors
@@ -85,13 +84,7 @@ nav-menu: true
 		<div style="display: flex; justify-content: center; align-items: center; min-height: 500px;">
 			<!--Checkboxes-->
 			<input type="checkbox" id="sketchbook_cover_checkbox" class="flip_trigger">
-        	<input type="checkbox" id="sketchbook_page1_checkbox" class="flip_trigger">
-        	<input type="checkbox" id="sketchbook_page2_checkbox" class="flip_trigger">
-			<input type="checkbox" id="sketchbook_page3_checkbox" class="flip_trigger">
-			<input type="checkbox" id="sketchbook_page4_checkbox" class="flip_trigger">
-			<input type="checkbox" id="sketchbook_page5_checkbox" class="flip_trigger">
-			<input type="checkbox" id="sketchbook_page6_checkbox" class="flip_trigger">
-			<input type="checkbox" id="sketchbook_page7_checkbox" class="flip_trigger">
+			{% for i in (1..7) %}<input type="checkbox" id="sketchbook_page{{ i }}_checkbox" class="flip_trigger">{% endfor %}
 	        <div id="sketchbook" class = "flip_container landscape-book">
 				<!--Cover-->
 	            <div class="front_cover">
@@ -202,6 +195,107 @@ nav-menu: true
 		<!-- zines and lectures -->
 		<h3>Zines</h3>
 		<p>I make zines (mini-magazines) to accompany scientific lectures. These are sneak peeks of the zines from two "Naturalist Night" lectures from the Santa Cruz Museum of Natural History.</p>
+		<!-- Zine placeholders -->
+		<!-- Cordyceps Zine -->
+		<div style="display: flex; justify-content: center; align-items: center; min-height: 450px;">
+            {% for i in (1..4) %}<input type="checkbox" id="C_page{{ i }}_checkbox" class="flip_trigger">{% endfor %}
+            <div id="cordyceps" class="flip_container portrait-book">
+				<!-- Page 1 -->
+                <div class="page" id="C_page1">
+                    <div class="front_page">
+                        <label for="C_page1_checkbox"></label>
+                        <img src="{% link assets/images/crow.webp %}" alt="Cordyceps Front">
+                    </div>
+                    <div class="back_page">
+                        <label for="C_page2_checkbox"></label>
+                        <img src="{% link assets/images/pug.webp %}" alt="Cordyceps Page 2">
+                    </div>
+                </div>
+				<!-- Page 2-->
+				<div class="page" id="C_page2">
+					<div class="front_page">
+        				<label for="C_page2_checkbox"></label>
+        				<img src="{% link assets/images/towhee.webp %}" alt="Cordyceps Page 3">
+    				</div>
+    				<div class="back_page">
+        				<label for="C_page3_checkbox"></label>
+        				<img src="{% link assets/images/mosquito.webp %}" alt="Cordyceps Page 4">
+    				</div>
+				</div>
+				<!-- Page 3-->
+				<div class="page" id="C_page3">
+    				<div class="front_page">
+        				<label for="C_page3_checkbox"></label>
+        				<img src="{% link assets/images/crow.webp %}" alt="Cordyceps Page 5">
+    				</div>
+    				<div class="back_page">
+        				<label for="C_page4_checkbox"></label>
+        				<img src="{% link assets/images/pug.webp %}" alt="Cordyceps Page 6">
+    				</div>
+				</div>
+				<!-- Page 4-->
+				<div class="page" id="C_page4">
+				    <div class="front_page">
+				        <label for="C_page4_checkbox"></label>
+				        <img src="{% link assets/images/towhee.webp %}" alt="Cordyceps Page 7">
+				    </div>
+				    <div class="back_page">
+				        <img src="{% link assets/images/mosquito.webp %}" alt="Cordyceps Page 8">
+				    </div>
+				</div>
+                <div class="back_cover"></div>
+            </div>
+        </div>
+		<!-- Frog Zine -->
+        <div style="display: flex; justify-content: center; align-items: center; min-height: 450px; margin-top: 4em;">
+            {% for i in (1..4) %}<input type="checkbox" id="F_page{{ i }}_checkbox" class="flip_trigger">{% endfor %}
+            <div id="frog" class="flip_container portrait-book">
+				<!-- Page 1 -->
+                <div class="page" id="F_page1">
+                    <div class="front_page">
+                        <label for="F_page1_checkbox"></label>
+                        <img src="{% link assets/images/mosquito.webp %}" alt="Frog Zine Front">
+                    </div>
+                    <div class="back_page">
+                        <label for="F_page2_checkbox"></label>
+                        <img src="{% link assets/images/towhee.webp %}" alt="Frog Zine Page 2">
+                    </div>
+                </div>
+				<!-- Page 2 -->
+				<div class="page" id="F_page2">
+				    <div class="front_page">
+				        <label for="F_page2_checkbox"></label>
+				        <img src="{% link assets/images/crow.webp %}" alt="Frog Page 3">
+				    </div>
+				    <div class="back_page">
+				        <label for="F_page3_checkbox"></label>
+				        <img src="{% link assets/images/pug.webp %}" alt="Frog Page 4">
+				    </div>
+				</div>
+				<!-- Page 3 -->
+				<div class="page" id="F_page3">
+				    <div class="front_page">
+				        <label for="F_page3_checkbox"></label>
+				        <img src="{% link assets/images/crow.webp %}" alt="Frog Page 5">
+				    </div>
+				    <div class="back_page">
+				        <label for="F_page4_checkbox"></label>
+				        <img src="{% link assets/images/mosquito.webp %}" alt="Frog Page 6">
+				    </div>
+				</div>
+				<!-- Page 4 -->
+				<div class="page" id="F_page4">
+				    <div class="front_page">
+				        <label for="F_page4_checkbox"></label>
+				        <img src="{% link assets/images/towhee.webp %}" alt="Frog Page 7">
+				    </div>
+				    <div class="back_page">
+				        <img src="{% link assets/images/pug.webp %}" alt="Frog Page 8">
+				    </div>
+				</div>
+                <div class="back_cover"></div>
+            </div>
+        </div>
 		<!-- Zine pictures -->
 		<div class="box alt">
 			<div class="row 50% uniform">
