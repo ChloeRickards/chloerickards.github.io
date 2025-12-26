@@ -8,6 +8,11 @@ order: 2
 nav-menu: true
 ---
 
+<!--Flipbook trigger-->
+<style>
+    .flip_trigger { display: none; }
+</style>
+
 <!-- Main -->
 <div id="main">
 
@@ -26,7 +31,9 @@ nav-menu: true
 			</ul>
 		</p>
 		<hr />
-		<!-- Watercolors -->
+		<!-- 
+		Watercolors
+		-->
 		<header class="major">
 			<h2>Selected Watercolors</h2>
 		</header>
@@ -72,55 +79,148 @@ nav-menu: true
 				</div>
 			</div>
 		</div>
-		<hr />
-		<!-- Zines, stencils, etc -->
-		<header class="major">
-			<h2>Educational Materials</h2>
-		</header>
-		<h3>Zines</h3>
-        <!-- Flip Book https://github.com/fchavonet/creative_coding-flip_book/blob/main/index.html -->
+		<!-- 
+		Sketchbook 
+		-->
 		<div style="display: flex; justify-content: center; align-items: center; min-height: 500px;">
-			<input type="checkbox" id="cover_checkbox" class="flip_trigger">
-        	<input type="checkbox" id="page1_checkbox" class="flip_trigger">
-        	<input type="checkbox" id="page2_checkbox" class="flip_trigger">
-	        <div id="flip_book">
+			<!--Checkboxes-->
+			<input type="checkbox" id="sketchbook_cover_checkbox" class="flip_trigger">
+        	<input type="checkbox" id="sketchbook_page1_checkbox" class="flip_trigger">
+        	<input type="checkbox" id="sketchbook_page2_checkbox" class="flip_trigger">
+			<input type="checkbox" id="sketchbook_page3_checkbox" class="flip_trigger">
+			<input type="checkbox" id="sketchbook_page4_checkbox" class="flip_trigger">
+			<input type="checkbox" id="sketchbook_page5_checkbox" class="flip_trigger">
+			<input type="checkbox" id="sketchbook_page6_checkbox" class="flip_trigger">
+			<input type="checkbox" id="sketchbook_page7_checkbox" class="flip_trigger">
+	        <div id="sketchbook" class = "flip_container landscape-book">
+				<!--Cover-->
 	            <div class="front_cover">
-	                <label for="cover_checkbox" id="cover">
-						<img src="{% link assets/images/ribeiroia_sneakpeek.webp %}" 
-							style="width:100%; height:100%; object-fit: cover; border-radius: 2.5px 5px 5px 2.5px;" 
-							alt="Cover - Sketched-out form of a mini magazine on Ribeiroia">
+	                <label for="sketchbook_cover_checkbox" id="sketchbook_cover">
+						<img src="{% link assets/images/sketchbook.webp %}" 
+							alt="Sketchbook cover">
 					</label>
 	            </div>
-	            <div class="page" id="page1">
+				<!--Page 1-->
+	            <div class="page" id="sketchbook_page1">
 	                <div class="front_page">
-	                    <label for="page1_checkbox"></label>
+	                    <label for="sketchbook_page1_checkbox"></label>
 	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
-	                    <img class="front_content" src="{% link assets/images/ribeiroia_sneakpeek.webp %}" alt="Sketched-out form of a mini magazine on Ribeiroia">
+	                    <img class="front_content" src="{% link assets/images/beltane.webp %}" alt="Full-page watercolor of a festival scene">
 	                </div>
 	                <div class="back_page">
-	                    <label for="page1_checkbox"></label>
+	                    <label for="sketchbook_page1_checkbox"></label>
 	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
-	                    <img class="back_content" src="{% link assets/images/leftbrain.webp %}" alt="Graphite drawing of the left hemisphere of the brain.">
+	                    <img class="back_content" src="{% link assets/images/cordy_ant.webp %}" alt="Watercolor of an ant infected with the Cordyceps fungus">
 	                </div>
 	            </div>
-	            <div class="page" id="page2">
+				<!--Page 2-->
+	            <div class="page" id="sketchbook_page2">
 	                <div class="front_page">
-	                    <label for="page2_checkbox"></label>
+	                    <label for="sketchbook_page2_checkbox"></label>
 	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
-	                    <img class="front_content" src="{% link assets/images/rightbrain.webp %}" alt="Watercolor of the right hemisphere of the brain">
+	                    <img class="front_content" src="{% link assets/images/mosquito.webp %}" alt="Watercolor of a mosquito filled with blood">
 	                </div>
 	                <div class="back_page">
-	                    <label for="page2_checkbox"></label>
+	                    <label for="sketchbook_page2_checkbox"></label>
 	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
-	                    <img class="back_content" src="{% link assets/images/cordyceps_sneakpeek.webp %}" alt="Sketches of a mini-magazine on Cordyceps">
+	                    <img class="back_content" src="{% link assets/images/savannahhat.webp %}" alt="Watercolor of a bearded dragon in a witch's hat">
+	                </div>
+	            </div>
+				<!--Page 3-->
+				<div class="page" id="sketchbook_page3">
+	                <div class="front_page">
+	                    <label for="sketchbook_page3_checkbox"></label>
+	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
+	                    <img class="front_content" src="{% link assets/images/redwoodflowers.webp %}" alt="Watercolor of several wildflowers common to redwood forests">
+	                </div>
+	                <div class="back_page">
+	                    <label for="sketchbook_page3_checkbox"></label>
+	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
+	                    <img class="back_content" src="{% link assets/images/bluebutterfly.webp %}" alt="Watercolor of a small blue butterfly">
+	                </div>
+	            </div>
+				<!--Page 4-->
+				<div class="page" id="sketchbook_page4">
+	                <div class="front_page">
+	                    <label for="sketchbook_page4_checkbox"></label>
+	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
+	                    <img class="front_content" src="{% link assets/images/creepyplants.webp %}" alt="Watercolor of a corpse flower and a California pitcher plant">
+	                </div>
+	                <div class="back_page">
+	                    <label for="sketchbook_page4_checkbox"></label>
+	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
+	                    <img class="back_content" src="{% link assets/images/crow.webp %}" alt="Watercolor of a crow looking upward">
+	                </div>
+	            </div>
+				<!--Page 5-->
+				<div class="page" id="sketchbook_page5">
+	                <div class="front_page">
+	                    <label for="sketchbook_page5_checkbox"></label>
+	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
+	                    <img class="front_content" src="{% link assets/images/lm.webp %}" alt="Watercolor of a series of montage from the immersive world of Lennox Mutual">
+	                </div>
+	                <div class="back_page">
+	                    <label for="sketchbook_page5_checkbox"></label>
+	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
+	                    <img class="back_content" src="{% link assets/images/pug.webp %}" alt="Watercolor of a pug dog in magenta and yellow">
+	                </div>
+	            </div>
+				<!--Page 6-->
+				<div class="page" id="sketchbook_page6">
+	                <div class="front_page">
+	                    <label for="sketchbook_page6_checkbox"></label>
+	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
+	                    <img class="front_content" src="{% link assets/images/towhee.webp %}" alt="Watercolor of a Spotted Towhee">
+	                </div>
+	                <div class="back_page">
+	                    <label for="sketchbook_page6_checkbox"></label>
+	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
+	                    <img class="back_content" src="{% link assets/images/salamander.webp %}" alt="Watercolor of a black salamander with orange spots, infectd with Cordyceps fungus">
+	                </div>
+	            </div>
+				<!--Page 7-->
+				<div class="page" id="sketchbook_page7">
+	                <div class="front_page">
+	                    <label for="sketchbook_page7_checkbox"></label>
+	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
+	                    <img class="front_content" src="{% link assets/images/cordy_deer.webp %}" alt="Watercolor of a deer infected with Cordyceps">
+	                </div>
+	                <div class="back_page">
+	                    <label for="sketchbook_page7_checkbox"></label>
+	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
+	                    <img class="back_content" src="{% link assets/images/zayante.webp %}" alt="Watercolor of a Zayante band-winged grasshopper">
 	                </div>
 	            </div>
 	            <div class="back_cover"></div> 
 	        </div>
-		<style>
-    		.flip_trigger { display: none; }
-		</style>
 		</div>
+		<hr />
+		<!-- Educational Materials -->
+		<header class="major">
+			<h2>Educational Materials</h2>
+		</header>
+		<!-- zines and lectures -->
+		<h3>Zines</h3>
+		<p>I make zines (mini-magazines) to accompany scientific lectures. These are sneak peeks of the zines from two "Naturalist Night" lectures from the Santa Cruz Museum of Natural History.</p>
+		<!-- Zine pictures -->
+		<div class="box alt">
+			<div class="row 50% uniform">
+				<div class="6u">
+					<span class="image fit"><img src="{% link assets/images/cordyceps_sneakpeek.webp %}" alt="Pencil and ink sketches that show information about the Cordyceps fungus" />
+					</span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						"What would happen if Cordyceps could infect other animals?" is a zine about speculative evolution for the cordyceps pathogenic fungus.
+					</p>
+				</div>
+				<div class="6u$">
+					<span class="image fit"><img src="{% link assets/images/ribeiroia_sneakpeek.webp %}" alt="Sketches and watercolors that show information about the Ribeiroia pathogen" /></span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						"Freaky Frogday" is a zine about <i>Ribeiroia ondrata</i>, a parasitic worm native to western North America that causes amphibian deformities.
+					</p>
+				</div>
+			</div>
+		</div>
+		<h3>Stencils</h3>
 	</div>
 </section>
 
