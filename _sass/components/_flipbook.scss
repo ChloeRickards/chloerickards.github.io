@@ -17,8 +17,27 @@
         transform-origin: center left;
         transition: transform 0.5s;
         z-index: 100 !important;
-        //backface-visibility: hidden;
         transform-style: preserve-3d;
+
+        // This is the new structure for the two-sided cover
+        .front_page_cover, .back_page_cover {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden; // Hides the back side of each face
+            border-radius: 2.5px 5px 5px 2.5px;
+        }
+
+        .front_page_cover {
+            z-index: 2;
+            //background-color: #e0e7e3; // Off-white/Green base
+        }
+
+        .back_page_cover {
+            //background-color: #27B067; // Your specific Green
+            transform: rotateY(180deg); // Pre-flip so it faces the pages when closed
+            z-index: 1;
+        }
 
         label {
             width: 100%;
