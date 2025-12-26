@@ -4,6 +4,7 @@
 // $page-width: 288px;
 // $page-height: 400px;
 
+/* --- FLIPBOOK LOGIC --- */
 .flip_container {
     position: relative;
     perspective: 2000px;
@@ -119,6 +120,7 @@
     }
 }
 
+/* --- SIZING --- */
 .landscape-book {
     width: 600px;
     height: 450px;
@@ -142,17 +144,19 @@
     }
 }
 
-/* --- 4. Z-INDEX STACKING (7 Pages) --- */
-/* Page 1 on top, Page 7 at the bottom */
-#page1, #sketchbook_page1 { z-index: 10; }
-#page2, #sketchbook_page2 { z-index: 9; }
-#page3, #sketchbook_page3 { z-index: 8; }
-#page4, #sketchbook_page4 { z-index: 7; }
-#page5, #sketchbook_page5 { z-index: 6; }
-#page6, #sketchbook_page6 { z-index: 5; }
-#page7, #sketchbook_page7 { z-index: 4; }
+/* --- Z-INDEXING -- */
+/* C = Cordyceps, F = Frog. 
+Sketchbooks have 7 pages and a cover.
+Cordyceps and frog zines have 4 pages and no cover*/
+#sketchbook_page1, #C_page1, #F_page1 { z-index: 10; }
+#sketchbook_page2, #C_page2, #F_page2 { z-index: 9; }
+#sketchbook_page3, #C_page3, #F_page3 { z-index: 8; }
+#sketchbook_page4, #C_page4, #F_page4 { z-index: 7; }
+#sketchbook_page5 { z-index: 6; }
+#sketchbook_page6 { z-index: 5; }
+#sketchbook_page7 { z-index: 4; }
 
-/* --- 5. CHECKBOX LOGIC (Landscape - L_ IDs) --- */
+/* --- SKETCHBOOK CHECKBOX LOGIC (7 pages, cover) --- */
 #sketchbook_cover_checkbox:checked ~ #sketchbook_flip_book {
     transform: translateX(300px); // Shifts 50% of 600px width
     .front_cover {
@@ -168,17 +172,25 @@
     }
 }
 
-/* --- 6. CHECKBOX LOGIC (Portrait - Original IDs) --- */
-#cover_checkbox:checked ~ #flip_book {
+/* --- CORDYCEPS CHECKBOX LOGIC (4 pages, no cover) --- */
+#C_page1_checkbox:checked ~ #cordyceps {
     transform: translateX(144px); // Shifts 50% of 288px width
-    .front_cover {
+}
+
+@for $i from 1 through 4 {
+    #C_page#{$i}_checkbox:checked ~ #cordyceps #C_page#{$i} {
         transform: rotateY(-180deg);
-        z-index: 1;
+        z-index: 10 + $i;
     }
 }
 
-@for $i from 1 through 3 {
-    #page#{$i}_checkbox:checked ~ #flip_book #page#{$i} {
+/* --- FROG CHECKBOX LOGIC (4 pages, no cover) --- */
+#F_page1_checkbox:checked ~ #frog {
+    transform: translateX(144px); // Shifts 50% of 288px width
+}
+
+@for $i from 1 through 4 {
+    #F_page#{$i}_checkbox:checked ~ #frog #F_page#{$i} {
         transform: rotateY(-180deg);
         z-index: 10 + $i;
     }
