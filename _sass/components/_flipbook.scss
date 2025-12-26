@@ -64,6 +64,7 @@
         transform-style: preserve-3d;
         transform: rotateY(0deg);
         transition-duration: 0.5s;
+        overflow: hidden;
 
         .front_page, .back_page {
             width: 100%;
@@ -115,14 +116,6 @@
         filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.15));
         background-color: transparent;
     }
-
-    // .edge_shading {
-    //     position: absolute;
-    //     z-index: 98;
-    //     background-image: url("../images/flip_book_edge_shading.webp");
-    //     background-size: cover;
-    //     pointer-events: none; // Allows clicks to pass through to the labels
-    // }
 }
 
 /* --- SIZING --- */
@@ -139,13 +132,6 @@
         top: 10px; 
         left: 2px; 
     }
-
-    // .edge_shading {
-    //     width: 590px;
-    //     height: 430px;
-    //     top: 10px;
-    //     left: 2px;
-    // }
 }
 
 /* Original Portrait Book dimensions */
@@ -158,12 +144,6 @@
         top: 10px; 
         left: 1px; 
     }
-    // .edge_shading {
-    //     width: 288px; // Matches page width
-    //     height: 400px; // Matches page height
-    //     top: 10px;     // Matches page offset
-    //     left: 1px;     // Matches page offset
-    // }
 }
 
 /* --- Z-INDEXING -- */
@@ -189,7 +169,7 @@ Cordyceps and frog zines have 4 pages and no cover*/
 
 @for $i from 1 through 7 {
     #sketchbook_page#{$i}_checkbox:checked ~ #sketchbook #sketchbook_page#{$i} {
-        transform: rotateY(-180deg);
+        transform: rotateY(-180deg) translateZ(0.1px);
         z-index: 10 + $i; // Stacks flipped pages correctly on the left
     }
 }
