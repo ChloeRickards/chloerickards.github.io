@@ -100,12 +100,10 @@ nav-menu: true
 	            <div class="page" id="sketchbook_page1">
 	                <div class="front_page">
 	                    <label for="sketchbook_page1_checkbox"></label>
-	                    <!-- <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading"> -->
 	                    <img class="front_content" src="{% link assets/images/beltane.webp %}" alt="Full-page watercolor of a festival scene">
 	                </div>
 	                <div class="back_page">
 	                    <label for="sketchbook_page1_checkbox"></label>
-	                    <!-- <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading"> -->
 	                    <img class="back_content" src="{% link assets/images/cordy_ant.webp %}" alt="Watercolor of an ant infected with the Cordyceps fungus">
 	                </div>
 	            </div>
@@ -113,12 +111,10 @@ nav-menu: true
 	            <div class="page" id="sketchbook_page2">
 	                <div class="front_page">
 	                    <label for="sketchbook_page2_checkbox"></label>
-	                    <!-- <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading"> -->
 	                    <img class="front_content" src="{% link assets/images/mosquito.webp %}" alt="Watercolor of a mosquito filled with blood">
 	                </div>
 	                <div class="back_page">
 	                    <label for="sketchbook_page2_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
 	                    <img class="back_content" src="{% link assets/images/savannahhat.webp %}" alt="Watercolor of a bearded dragon in a witch's hat">
 	                </div>
 	            </div>
@@ -126,12 +122,10 @@ nav-menu: true
 				<div class="page" id="sketchbook_page3">
 	                <div class="front_page">
 	                    <label for="sketchbook_page3_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
 	                    <img class="front_content" src="{% link assets/images/redwoodflowers.webp %}" alt="Watercolor of several wildflowers common to redwood forests">
 	                </div>
 	                <div class="back_page">
 	                    <label for="sketchbook_page3_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
 	                    <img class="back_content" src="{% link assets/images/bluebutterfly.webp %}" alt="Watercolor of a small blue butterfly">
 	                </div>
 	            </div>
@@ -139,12 +133,10 @@ nav-menu: true
 				<div class="page" id="sketchbook_page4">
 	                <div class="front_page">
 	                    <label for="sketchbook_page4_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
 	                    <img class="front_content" src="{% link assets/images/creepyplants.webp %}" alt="Watercolor of a corpse flower and a California pitcher plant">
 	                </div>
 	                <div class="back_page">
 	                    <label for="sketchbook_page4_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
 	                    <img class="back_content" src="{% link assets/images/crow.webp %}" alt="Watercolor of a crow looking upward">
 	                </div>
 	            </div>
@@ -152,12 +144,10 @@ nav-menu: true
 				<div class="page" id="sketchbook_page5">
 	                <div class="front_page">
 	                    <label for="sketchbook_page5_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
 	                    <img class="front_content" src="{% link assets/images/lm.webp %}" alt="Watercolor of a series of montage from the immersive world of Lennox Mutual">
 	                </div>
 	                <div class="back_page">
 	                    <label for="sketchbook_page5_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
 	                    <img class="back_content" src="{% link assets/images/pug.webp %}" alt="Watercolor of a pug dog in magenta and yellow">
 	                </div>
 	            </div>
@@ -165,12 +155,10 @@ nav-menu: true
 				<div class="page" id="sketchbook_page6">
 	                <div class="front_page">
 	                    <label for="sketchbook_page6_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
 	                    <img class="front_content" src="{% link assets/images/towhee.webp %}" alt="Watercolor of a Spotted Towhee">
 	                </div>
 	                <div class="back_page">
 	                    <label for="sketchbook_page6_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
 	                    <img class="back_content" src="{% link assets/images/salamander.webp %}" alt="Watercolor of a black salamander with orange spots, infectd with Cordyceps fungus">
 	                </div>
 	            </div>
@@ -178,12 +166,10 @@ nav-menu: true
 				<div class="page" id="sketchbook_page7">
 	                <div class="front_page">
 	                    <label for="sketchbook_page7_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
 	                    <img class="front_content" src="{% link assets/images/cordy_deer.webp %}" alt="Watercolor of a deer infected with Cordyceps">
 	                </div>
 	                <div class="back_page">
 	                    <label for="sketchbook_page7_checkbox"></label>
-	                    <img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
 	                    <img class="back_content" src="{% link assets/images/zayante.webp %}" alt="Watercolor of a Zayante band-winged grasshopper">
 	                </div>
 	            </div>
@@ -207,12 +193,10 @@ nav-menu: true
                 <div class="page" id="C_page1">
                     <div class="front_page">
                         <label for="C_page1_checkbox"></label>
-						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
                         <img src="{% link assets/images/crow.webp %}" alt="Cordyceps Front">
                     </div>
                     <div class="back_page">
                         <label for="C_page2_checkbox"></label>
-						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
                         <img src="{% link assets/images/pug.webp %}" alt="Cordyceps Page 2">
                     </div>
                 </div>
@@ -220,12 +204,10 @@ nav-menu: true
 				<div class="page" id="C_page2">
 					<div class="front_page">
         				<label for="C_page2_checkbox"></label>
-						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
         				<img src="{% link assets/images/towhee.webp %}" alt="Cordyceps Page 3">
     				</div>
     				<div class="back_page">
         				<label for="C_page3_checkbox"></label>
-						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
         				<img src="{% link assets/images/mosquito.webp %}" alt="Cordyceps Page 4">
     				</div>
 				</div>
@@ -233,12 +215,10 @@ nav-menu: true
 				<div class="page" id="C_page3">
     				<div class="front_page">
         				<label for="C_page3_checkbox"></label>
-						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
         				<img src="{% link assets/images/crow.webp %}" alt="Cordyceps Page 5">
     				</div>
     				<div class="back_page">
         				<label for="C_page4_checkbox"></label>
-						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
         				<img src="{% link assets/images/pug.webp %}" alt="Cordyceps Page 6">
     				</div>
 				</div>
@@ -246,11 +226,9 @@ nav-menu: true
 				<div class="page" id="C_page4">
 				    <div class="front_page">
 				        <label for="C_page4_checkbox"></label>'
-						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
 				        <img src="{% link assets/images/towhee.webp %}" alt="Cordyceps Page 7">
 				    </div>
 				    <div class="back_page">
-						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
 				        <img src="{% link assets/images/mosquito.webp %}" alt="Cordyceps Page 8">
 				    </div>
 				</div>
@@ -265,12 +243,10 @@ nav-menu: true
                 <div class="page" id="F_page1">
                     <div class="front_page">
                         <label for="F_page1_checkbox"></label>
-						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
                         <img src="{% link assets/images/mosquito.webp %}" alt="Frog Zine Front">
                     </div>
                     <div class="back_page">
                         <label for="F_page2_checkbox"></label>
-						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
                         <img src="{% link assets/images/towhee.webp %}" alt="Frog Zine Page 2">
                     </div>
                 </div>
@@ -278,12 +254,10 @@ nav-menu: true
 				<div class="page" id="F_page2">
 				    <div class="front_page">
 				        <label for="F_page2_checkbox"></label>
-						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
 				        <img src="{% link assets/images/crow.webp %}" alt="Frog Page 3">
 				    </div>
 				    <div class="back_page">
 				        <label for="F_page3_checkbox"></label>
-						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
 				        <img src="{% link assets/images/pug.webp %}" alt="Frog Page 4">
 				    </div>
 				</div>
@@ -291,12 +265,10 @@ nav-menu: true
 				<div class="page" id="F_page3">
 				    <div class="front_page">
 				        <label for="F_page3_checkbox"></label>
-						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
 				        <img src="{% link assets/images/crow.webp %}" alt="Frog Page 5">
 				    </div>
 				    <div class="back_page">
 				        <label for="F_page4_checkbox"></label>
-						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
 				        <img src="{% link assets/images/mosquito.webp %}" alt="Frog Page 6">
 				    </div>
 				</div>
@@ -304,11 +276,9 @@ nav-menu: true
 				<div class="page" id="F_page4">
 				    <div class="front_page">
 				        <label for="F_page4_checkbox"></label>
-						<img class="edge_shading" src="{% link assets/images/front_page_edge_shading.webp %}" alt="Front page edge shading">
 				        <img src="{% link assets/images/towhee.webp %}" alt="Frog Page 7">
 				    </div>
 				    <div class="back_page">
-						<img class="edge_shading" src="{% link assets/images/back_page_edge_shading.webp %}" alt="Back page edge shading">
 				        <img src="{% link assets/images/pug.webp %}" alt="Frog Page 8">
 				    </div>
 				</div>
