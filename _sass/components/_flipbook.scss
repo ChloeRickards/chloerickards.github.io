@@ -15,14 +15,15 @@
     .front_cover, .back_cover, .page {
         position: absolute;
         border-radius: 2.5px 5px 5px 2.5px;
-        background-color: transparent !important;
+        //background-color: transparent !important;
+        background-color: #e0e7e3
     }
 
     .front_cover {
         cursor: pointer;
         transform-origin: center left;
         transition: transform 0.5s;
-        z-index: 99;
+        z-index: 99 !important;
 
         label {
             width: 100%;
@@ -157,7 +158,7 @@ Cordyceps and frog zines have 4 pages and no cover*/
 #sketchbook_page7 { z-index: 4; }
 
 /* --- SKETCHBOOK CHECKBOX LOGIC (7 pages, cover) --- */
-#sketchbook_cover_checkbox:checked ~ #sketchbook_flip_book {
+#sketchbook_cover_checkbox:checked ~ #sketchbook {
     transform: translateX(300px); // Shifts 50% of 600px width
     .front_cover {
         transform: rotateY(-180deg);
@@ -166,7 +167,7 @@ Cordyceps and frog zines have 4 pages and no cover*/
 }
 
 @for $i from 1 through 7 {
-    #sketchbook_page#{$i}_checkbox:checked ~ #sketchbook_flip_book #sketchbook_page#{$i} {
+    #sketchbook_page#{$i}_checkbox:checked ~ #sketchbook #sketchbook_page#{$i} {
         transform: rotateY(-180deg);
         z-index: 10 + $i; // Stacks flipped pages correctly on the left
     }
