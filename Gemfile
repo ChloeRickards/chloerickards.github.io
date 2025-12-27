@@ -4,6 +4,8 @@ gem 'jekyll', '~> 4.2'
 
 gem 'ffi', '= 1.16.3'
 
+gem 'jekyll-sitemap'
+
 gem 'jekyll-sass-converter', '~> 2.0'
 
 group :jekyll_plugins do
