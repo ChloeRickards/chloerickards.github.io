@@ -3,6 +3,7 @@ layout: post
 title: About Me
 description: Chloe Rickards Bio
 image: assets/images/me.webp
+permalink: /aboutme/
 nav-menu: true
 ---
 
