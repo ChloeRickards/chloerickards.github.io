@@ -63,6 +63,25 @@ img {
 				margin: (_size(element-margin) * 0.75) 0;
 			}
 		}
+		&.book-cover {
+	        max-width: 180px; // Constraints the cover size
+	        min-width: 120px; // Prevents it from getting too small on mobile
+	        
+	        img {
+	            /* Adds a soft shadow to mimic the depth of a physical book */
+	            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+	            /* Optional: Add a very slight border-right to simulate a page edge */
+	            border-right: 1px solid rgba(0,0,0,0.05);
+	        }
+	
+	        /* Responsive adjustment: on very small screens, center the book cover */
+	        @include breakpoint(small) {
+	            float: none;
+	            margin: 0 auto 1.5em auto;
+	            max-width: 200px;
+	            display: block;
+	        }
+    	}
 	}
 .book-feature {
 	    display: flex;
