@@ -64,7 +64,7 @@ img {
 			}
 		}
 
-		&.book-cover {book-cover {
+		&.book-cover {
 		    max-width: 180px; // Sets a fixed proportional size
 		    min-width: 120px; // Prevents it from getting too tiny on mobile
 		    
@@ -72,4 +72,5 @@ img {
 		        /* Adds a slight 'book' shadow to match your sketchbook vibe */
 		        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 		    }
+		}
 	}
