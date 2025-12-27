@@ -63,14 +63,21 @@ img {
 				margin: (_size(element-margin) * 0.75) 0;
 			}
 		}
-
-		&.book-cover {
-		    max-width: 180px; // Sets a fixed proportional size
-		    min-width: 120px; // Prevents it from getting too tiny on mobile
-		    
-		    img {
-		        /* Adds a slight 'book' shadow to match your sketchbook vibe */
-		        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-		    }
-		}
+	}
+.book-feature {
+	    display: flex;
+	    align-items: center; // Vertically centers text to image
+	    gap: 2em;            // Space between image and text
+	    margin-bottom: 2em;  // Prevents bleeding into next section
+    
+	    .book-cover {
+	        flex-shrink: 0;  // Prevents image from squishing
+	        margin: 0;
+			max-width: 180px;
+	    }
+	
+	    @include breakpoint(small) {
+	        flex-direction: column; // Stacks on mobile
+	        text-align: center;
+	    }
 	}
