@@ -81,7 +81,6 @@ nav-menu: true
 				</div>
 			</div>
 		</div>
-		<p><span class="image left book-cover"><img src="{% link assets/images/poisonedbrother.webp %}" alt="" /></span> My watercolor, <i> Santa Cruz Long-toed Salamander Infected with Cordyceps</i> is featured on the cover of <i>The Poisoned Brother</i> by David Rickards. Read it on Kindle or in paperback at <a href = "https://a.co/d/0Ng47ts">https://a.co/d/0Ng47ts</a>.</p>
 		<!-- 
 		Sketchbook 
 		-->
@@ -181,7 +180,14 @@ nav-menu: true
 	            <div class="back_cover"></div> 
 	        </div>
 		</div>
-		<p><span class="image left book-cover"><img src="{% link assets/images/poisonedbrother.webp %}" alt="" /></span> My watercolor, <i> Santa Cruz Long-toed Salamander Infected with Cordyceps</i> is featured on the cover of <i>The Poisoned Brother</i> by David Rickards. Read it on Kindle or in paperback at <a href = "https://a.co/d/0Ng47ts">https://a.co/d/0Ng47ts</a>.</p>
+		<div class="book-feature">
+    		<span class="image book-cover">
+        		<img src="{% link assets/images/poisonedbrother.webp %}" alt="Book cover featuring a watercolor salamander, titled The Poisoned Brother by David Rickards" />
+    		</span> 
+    		<p>
+        		My watercolor, <i> Santa Cruz Long-toed Salamander Infected with Cordyceps</i> is featured on the cover of <i>The Poisoned Brother</i> by David Rickards. Read it on Kindle or in paperback at <a href = "https://a.co/d/0Ng47ts">https://a.co/d/0Ng47ts</a>.
+			</p>
+		</div>
 	</div>
 </section>
 
