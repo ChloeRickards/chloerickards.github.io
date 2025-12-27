@@ -3,7 +3,7 @@ locale                   : "en-US"
 title                    : "Chloe Rickards"
 title_separator          : "-"
 name                     : &name "Chloe Rickards"
-description              : &description "I am a data scientist and an artist and this is my portfolio. Thanks for visiting!"
+description              : &description "I am a data scientist and an artist specializing in community college research and interactive science. This is my portfolio. Thanks for visiting!"
 url                      : https://chloerickards.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 subtitle: DATA & ART
@@ -14,7 +14,6 @@ country: United States of America
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 2
-
 tiles:
   - title: Data
     image: assets/images/leftbrain.jpg
@@ -39,10 +38,14 @@ socials:
   Twitter: 
   Facebook:
   Slack:
-  Envelope: mailto:{{rickards.chloe@gmail.com}}
+  Envelope: mailto:rickards.chloe@gmail.com
 
 # build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed # Good for SEO/RSS readers
 
 sass:
   style: compressed
@@ -51,4 +54,6 @@ exclude:
 - "*.gemspec"
 - LICENSE.md
 - CONTRIBUTING.md
-- README.md 
+- README.md
+- Gemfile
+- Gemfile.lock
