@@ -186,9 +186,9 @@ nav-menu: true
 <section id="immersive">
 	<div class="inner">
 		<header class="major">
-			<h2>Immersive Design</h2>
+			<h2>Art that Invites You In</h2>
 		</header>
-		<p>I create interactive, encompassing, and multi-sensory art pieces</p>
+		<p>I love to make art you can touch or play with -- from large-scale murals to interactive elements in an immersive exhibit. Recently, I worked on some elements of a multi-sensory exhibit for the Santa Cruz Children's Museum of Discovery, titled "The Enchanted Forest". Stay tuned for future projects!</p>
 		<div class="box alt">
 			<div class="row 50% uniform">
 				<div class="6u">
