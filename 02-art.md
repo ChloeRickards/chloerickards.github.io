@@ -292,7 +292,7 @@ nav-menu: true
 					<span class="image fit"><img src="{% link assets/images/cordyceps_sneakpeek.webp %}" alt="Pencil and ink sketches that show information about the Cordyceps fungus" />
 					</span>
 					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
-						"What would happen if Cordyceps could infect other animals?" is a zine about speculative evolution for the cordyceps pathogenic fungus.
+						"What would it look like if Cordyceps infected other animals?" is a zine about speculative evolution for the cordyceps pathogenic fungus.
 					</p>
 				</div>
 				<div class="6u$">
