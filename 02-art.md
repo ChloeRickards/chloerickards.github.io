@@ -415,6 +415,9 @@ nav-menu: true
 				<div class="6u">
 					<span class="image fit"><img src="{% link assets/images/bogwitch.webp %}" alt="A 4-legged creature on stilts for a Halloween costume" />
 					</span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						I went a little wild with a stilt idea in 2024.
+					</p>
 				</div>
 				<div class="4u">
 					<span class="image fit"><img src="{% link assets/images/magicschoolbus.webp %}" alt="Halloween costume of myself as Miss Frizzle, with a Magic School Bus companion, and with my bearded dragon as Lizzy the lizard." />
