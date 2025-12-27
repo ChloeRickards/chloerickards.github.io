@@ -2,7 +2,7 @@
 <div id="wrapper">
 
 <!-- Header -->
-<header id="header" {% if page.layout == "landing" %} class="alt style2 {{ page.header_style }}"{% endif %}{% if page.layout == "home" %} class="alt {{ page.header_style }}"{% endif %}>
+<header id="header" class="{% if page.layout == 'landing' %}alt style2{% endif %}{% if page.layout == 'home' %}alt{% endif %}{{ page.header_style }}">
 	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
 	<nav>
 		<a href="#menu">Menu</a>
