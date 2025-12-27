@@ -107,6 +107,12 @@
 		&.style5 { &:after { background-color: _palette(accent5); } }
 		&.style6 { &:after { background-color: _palette(accent6); } }
 
+		&.data-theme {
+  			&:after {
+				background-color: #27B067;
+			}
+		}
+
 		body.is-loading & {
 			&:after {
 				opacity: 1.0;
