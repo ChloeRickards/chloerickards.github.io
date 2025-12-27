@@ -95,7 +95,8 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 18px;
+        //width: 18px;
+        width: clamp(8px, 3%, 18px);
         height: 100%;
         pointer-events: none;
         background: linear-gradient(
@@ -120,6 +121,11 @@
 }
 
 /* --- SIZING --- */
+.landscape-book,
+.portrait-book {
+    min-width: 260px;
+}
+
 .landscape-book {
     // width: 600px;
     // height: 450px;
@@ -194,7 +200,8 @@ Cordyceps and frog zines have 4 pages and no cover*/
 
 /* --- CORDYCEPS CHECKBOX LOGIC (4 pages, no cover) --- */
 #C_page1_checkbox:checked ~ #cordyceps {
-    transform: translateX(144px); // Shifts 50% of 288px width
+    //transform: translateX(144px); // Shifts 50% of 288px width
+    transform: translateX(50%);
 }
 
 @for $i from 1 through 4 {
@@ -206,12 +213,30 @@ Cordyceps and frog zines have 4 pages and no cover*/
 
 /* --- FROG CHECKBOX LOGIC (4 pages, no cover) --- */
 #F_page1_checkbox:checked ~ #frog {
-    transform: translateX(144px); // Shifts 50% of 288px width
+    //transform: translateX(144px); // Shifts 50% of 288px width
+    transform: translateX(50%);
 }
 
 @for $i from 1 through 4 {
     #F_page#{$i}_checkbox:checked ~ #frog #F_page#{$i} {
         transform: rotateY(-180deg);
         z-index: 10 + $i;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .flip_container {
+        margin-bottom: 2rem;
+    }
+
+    .landscape-book,
+    .portrait-book {
+        width: 95vw;
+        min-width: 260px;
+    }
+
+    .page::before {
+        width: clamp(6px, 2.5%, 12px);
     }
 }
