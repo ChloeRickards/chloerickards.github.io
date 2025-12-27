@@ -179,6 +179,7 @@ nav-menu: true
 	            <div class="back_cover"></div> 
 	        </div>
 		</div>
+		<p><span class="image left"><img src="{% link assets/images/poisonedbrother.webp %}" alt="" /></span> My watercolor, <i> Santa Cruz Long-toed Salamander Infected with Cordyceps</i> is featured on the cover of <i>The Poisoned Brother</i> by David Rickards. Read it on Kindle or in paperback at <a href = "https://a.co/d/0Ng47ts">https://a.co/d/0Ng47ts</a>.</p>
 	</div>
 </section>
 
@@ -188,24 +189,40 @@ nav-menu: true
 		<header class="major">
 			<h2>Art that Invites You In</h2>
 		</header>
-		<p>I love to make art you can touch or play with -- from large-scale murals to interactive elements in an immersive exhibit. Recently, I worked on some elements of a multi-sensory exhibit for the Santa Cruz Children's Museum of Discovery, titled "The Enchanted Forest". Stay tuned for future projects!</p>
+		<p>I love to make art you can touch -- from large-scale murals to interactive elements in an immersive exhibit. Recently, I worked on some elements of a multi-sensory exhibit for the Santa Cruz Children's Museum of Discovery, titled "The Enchanted Forest". Stay tuned for future projects!</p>
 		<div class="box alt">
 			<div class="row 50% uniform">
 				<div class="6u">
-					<span class="image fit"><img src="{% link assets/images/chanterelle.webp %}" alt="Wooden lasercut stencil of a chanterelle mushroom being filled in with an orange crayon" />
-					</span>
+					<span class="image fit"><img src="{% link assets/images/wipstainedglass.webp %}" alt="Pieces of acrylic lasercut flower in a stained glass style, mid-assembly" /></span>
 					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
-						Chanterelle mushroom stencil, designed and lasercut for the Santa Cruz Fungus Fair in 2025.
+						I used lasercut Plexiglas to create this "stained glass" piece for the window of the Enchanted Forest's Hobbit Hole play structure.
 					</p>
 				</div>
 				<div class="6u$">
-					<span class="image fit"><img src="{% link assets/images/tardigrade.webp %}" alt="3D-printed tardigrade stencil in front of a wax-resist watercolor." /></span>
+					<span class="image fit"><img src="{% link assets/images/flowerstainedglass.webp %}" alt="Acrylic lasercut flower in a stained glass style, fully installed" /></span>
 					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
-						Tardigrade stencil, designed and lasercut for the "Out of this World" Halloween party at the Santa Cruz Museum of Natural History.
+						Fully installed "stained glass" window in the Hobbit Hole.
+					</p>
+				</div>
+				<!-- Break -->
+				<div class="6u">
+					<span class="image fit"><img src="{% link assets/images/mosswall.webp %}" alt="Large wall decorated with green fabrics, with a TV screen in the middle" /></span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						The Moss Wall, made out of recycled fabric to create the moss texture. The TV screen is part of the <a href = "https://digitalnest.org/bizznest-brings-childrens-drawings-to-life-with-ai-machine-learning/">Animation Station designed by Digital NEST</a>.
+					</p>
+				</div>
+				<div class="6u$">
+					<span class="image fit"><img src="{% link assets/images/mosswall_detail.webp %}" alt="Close-up details of some of the fabric that makes up the moss wall." /></span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						Moss Wall close-up, featuring recycled fabrics from rugs, scarves, yarn, upholstery, and sweaters.
 					</p>
 				</div>
 			</div>
 		</div>
+		<span class="image fit"><img src="{% link assets/images/fullexhibit.webp %}" alt="" /></span>
+		<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+			The Enchanted Forest exhibit, featuring the Hobbit Hole structure with the "stained glass" window I designed, and the moss wall in the background.
+		</p>
 	</div>
 </section>
 
@@ -354,6 +371,56 @@ nav-menu: true
 					<span class="image fit"><img src="{% link assets/images/tardigrade.webp %}" alt="3D-printed tardigrade stencil in front of a wax-resist watercolor." /></span>
 					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
 						Tardigrade stencil, designed and lasercut for the "Out of this World" Halloween party at the Santa Cruz Museum of Natural History.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="other">
+	<div class = "inner">
+		<header class="major">
+			<h2>Other Creative Projects</h2>
+		</header>
+		<h3> Needlefelting</h3>
+		<div class="box alt">
+			<div class="row 50% uniform">
+				<div class="4u">
+					<span class="image fit"><img src="{% link assets/images/amanita.webp %}" alt="Needlefelted sculpture of Amanita muscaria" />
+					</span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						Needlefelted <i>Amanita muscaria</i> mushroom for <a href = "https://www.taylorseamount.com/installation.html">Taylor Seamount's "Reading Nook of Amanita M. EnnJax" installation</a>. 
+					</p>
+				</div>
+				<div class="4u">
+					<span class="image fit"><img src="{% link assets/images/seamount.webp %}" alt="Reading Nook installation by Taylor Seamount, featuring a needlefelted mushroom on a table" />
+					</span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						<a href = "https://www.taylorseamount.com/installation.html">Taylor Seamount's "Reading Nook of Amanita M. EnnJax" installation</a>, featuring my needlefelted mushroom on the side table. 
+					</p>
+				</div>
+				<div class="4u$">
+					<span class="image fit"><img src="{% link assets/images/needlefelts.webp %}" alt="Collage of two needlefelted sculpture, one of Appa the air bison, and one of a rate" /></span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						Appa and rat sculptures
+					</p>
+				</div>
+			</div>
+		</div>
+		<h3> Halloween Costumes </h3>
+		<p> Because Santa Cruz goes hard for Halloween and I LOVE Halloween!</p>
+		<div class="box alt">
+			<div class="row 50% uniform">
+				<div class="6u">
+					<span class="image fit"><img src="{% link assets/images/bogwitch.webp %}" alt="A 4-legged creature on stilts for a Halloween costume" />
+					</span>
+				</div>
+				<div class="4u">
+					<span class="image fit"><img src="{% link assets/images/magicschoolbus.webp %}" alt="Halloween costume of myself as Miss Frizzle, with a Magic School Bus companion, and with my bearded dragon as Lizzy the lizard." />
+					</span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						Featuring Savannah, my bearded dragon, as Lizzy.
 					</p>
 				</div>
 			</div>
