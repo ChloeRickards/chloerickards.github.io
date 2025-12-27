@@ -2,7 +2,7 @@
 title: Data
 layout: landing
 description: Learn about community college research, predictive statistics, and disease modeling.
-header_style: "data-theme"
+banner_style: data-theme
 image: assets/images/leftbrain.jpg
 permalink: /data/
 order: 1
