@@ -225,7 +225,22 @@ Cordyceps and frog zines have 4 pages and no cover*/
     }
 }
 
+@media (max-width: 768px) {
+  #sketchbook {
+    transform: scale(0.85);
+    transform-origin: center top;
+  }
+
+  #sketchbook_cover_checkbox:checked ~ #sketchbook {
+    transform: scale(0.85);
+  }
+}
+
 @media (max-width: 480px) {
+
+    #sketchbook {
+        transform: scale(0.75);
+    }
 
     .flip_container {
         margin-bottom: 2rem;
