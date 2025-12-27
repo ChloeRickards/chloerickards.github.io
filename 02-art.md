@@ -16,8 +16,8 @@ nav-menu: true
 <!-- Main -->
 <div id="main">
 
-<!-- One -->
-<section id="one">
+<!-- Artist Statement -->
+<section id="artstatement">
 	<div class="inner">
 		<header class="major">
 			<h2>Curating Curiosity</h2>
@@ -29,10 +29,13 @@ nav-menu: true
 			<li> Mural-making for local Santa Cruz businesses</li>	
 			<li> An interactive play about an AI possessed by a demon</li>
 		</ul>
-		<hr />
+	</div>
+</section>
 		<!-- 
 		Watercolors
 		-->
+<section id="watercolors">
+	<div class = "inner">
 		<header class="major">
 			<h2>Selected Watercolors</h2>
 		</header>
@@ -176,8 +179,39 @@ nav-menu: true
 	            <div class="back_cover"></div> 
 	        </div>
 		</div>
-		<hr />
-		<!-- Educational Materials -->
+	</div>
+</section>
+
+<!-- Immersive Design -->
+<section id="immersive">
+	<div class="inner">
+		<header class="major">
+			<h2>Immersive Design</h2>
+		</header>
+		<p>I create interactive, encompassing, and multi-sensory art pieces</p>
+		<div class="box alt">
+			<div class="row 50% uniform">
+				<div class="6u">
+					<span class="image fit"><img src="{% link assets/images/chanterelle.webp %}" alt="Wooden lasercut stencil of a chanterelle mushroom being filled in with an orange crayon" />
+					</span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						Chanterelle mushroom stencil, designed and lasercut for the Santa Cruz Fungus Fair in 2025.
+					</p>
+				</div>
+				<div class="6u$">
+					<span class="image fit"><img src="{% link assets/images/tardigrade.webp %}" alt="3D-printed tardigrade stencil in front of a wax-resist watercolor." /></span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						Tardigrade stencil, designed and lasercut for the "Out of this World" Halloween party at the Santa Cruz Museum of Natural History.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Educational Materials -->
+<section id="edmaterials">
+	<div class = "inner">
 		<header class="major">
 			<h2>Educational Materials</h2>
 		</header>
@@ -303,23 +337,27 @@ nav-menu: true
 				</div>
 			</div>
 		</div>
+		<hr />
+		<!-- Stencils -->
 		<h3>Stencils</h3>
+		<p>I design lasercut and 3D-printed scientifically-accurate stencils that I use for wax resist watercolor activity stations in events like the Santa Cruz Fungus Fair.</p>
+		<div class="box alt">
+			<div class="row 50% uniform">
+				<div class="6u">
+					<span class="image fit"><img src="{% link assets/images/chanterelle.webp %}" alt="Wooden lasercut stencil of a chanterelle mushroom being filled in with an orange crayon" />
+					</span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						Chanterelle mushroom stencil, designed and lasercut for the Santa Cruz Fungus Fair in 2025.
+					</p>
+				</div>
+				<div class="6u$">
+					<span class="image fit"><img src="{% link assets/images/tardigrade.webp %}" alt="3D-printed tardigrade stencil in front of a wax-resist watercolor." /></span>
+					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
+						Tardigrade stencil, designed and lasercut for the "Out of this World" Halloween party at the Santa Cruz Museum of Natural History.
+					</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
-
-<!-- Two -->
-
-<!-- Three -->
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Massa libero</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
-		</ul>
-	</div>
-</section>
-
 </div>
