@@ -121,28 +121,44 @@
 
 /* --- SIZING --- */
 .landscape-book {
-    width: 600px;
-    height: 450px;
+    // width: 600px;
+    // height: 450px;
+    width: 90vw; 
+    max-width: 600px;
+    aspect-ratio: 4 / 3; 
+    height: auto;
     .front_cover, .back_cover {
         width: 100%;
         height: 100%;
     }
     .page { 
-        width: 595px; // Slightly narrower to stay inside the cover
-        height: 430px; 
-        top: 10px; 
+        // width: 595px; // Slightly narrower to stay inside the cover
+        // height: 430px; 
+        // top: 10px; 
+        width: 99%; // Using % instead of fixed px
+        height: 96%; // Leaves a tiny margin for the cover 'lip'
+        top: 2%;
         left: 0; 
     }
 }
 
 /* Original Portrait Book dimensions */
 .portrait-book {
-    width: 298px;
-    height: 420px;
+    // width: 298px;
+    // height: 420px;
+    width: 70vw; 
+    max-width: 298px; 
+    
+    /* Using the exact inch measurements ensures perfect proportions */
+    aspect-ratio: 2.75 / 4.25; 
+    height: auto;
     .page { 
-        width: 293px; 
-        height: 400px; 
-        top: 10px; 
+        // width: 293px; 
+        // height: 400px; 
+        // top: 10px; 
+        width: 98%; 
+        height: 96%;
+        top: 2%;
         left: 0; 
     }
 }
@@ -161,7 +177,8 @@ Cordyceps and frog zines have 4 pages and no cover*/
 
 /* --- SKETCHBOOK CHECKBOX LOGIC (7 pages, cover) --- */
 #sketchbook_cover_checkbox:checked ~ #sketchbook {
-    transform: translateX(300px); // Shifts 50% of 600px width
+    //transform: translateX(300px); // Shifts 50% of 600px width
+    transform: translateX(50%);
     .front_cover {
         transform: rotateY(-180deg);
         z-index: 1 !important;
