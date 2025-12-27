@@ -184,7 +184,8 @@ Cordyceps and frog zines have 4 pages and no cover*/
 /* --- SKETCHBOOK CHECKBOX LOGIC (7 pages, cover) --- */
 #sketchbook_cover_checkbox:checked ~ #sketchbook {
     //transform: translateX(300px); // Shifts 50% of 600px width
-    transform: translateX(50%);
+    //transform: translateX(50%);
+    transform: translateX(clamp(20%, 30vw, 50%));
     .front_cover {
         transform: rotateY(-180deg);
         z-index: 1 !important;
