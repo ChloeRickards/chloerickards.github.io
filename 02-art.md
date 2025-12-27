@@ -84,6 +84,7 @@ nav-menu: true
 		<!-- 
 		Sketchbook 
 		-->
+		<p> Note: This sketchbook is not optimized for mobile, but you can try!</p>
 		<div style="display: flex; justify-content: center; align-items: center; min-height: 500px;">
 			<!--Checkboxes-->
 			<input type="checkbox" id="sketchbook_cover_checkbox" class="flip_trigger">
