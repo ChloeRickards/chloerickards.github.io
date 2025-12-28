@@ -130,8 +130,7 @@
     // width: 600px;
     // height: 450px;
     width: 90vw; 
-    // max-width: 600px;
-    max-width: 450px;
+    max-width: 600px;
     aspect-ratio: 4 / 3; 
     height: auto;
     .front_cover, .back_cover {
@@ -246,28 +245,28 @@ Cordyceps and frog zines have 4 pages and no cover*/
 
 }
 
-@media (max-width: 750px) {
+// @media (max-width: 750px) {
     
-    .flip_container img {
-        filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.12));
-    }
+//     .flip_container img {
+//         filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.12));
+//     }
     
-    #sketchbook {
-        perspective: 1000px;
-    }
+//     #sketchbook {
+//         perspective: 1000px;
+//     }
 
-    #sketchbook .page {
-        transform-origin: center;
-    }
+//     #sketchbook .page {
+//         transform-origin: center;
+//     }
 
-    #sketchbook_cover_checkbox:checked ~ #sketchbook {
-        transform: none;
-    }
+//     #sketchbook_cover_checkbox:checked ~ #sketchbook {
+//         transform: none;
+//     }
 
-    @for $i from 1 through 7 {
-        #sketchbook_page#{$i}_checkbox:checked ~ #sketchbook #sketchbook_page#{$i} {
-            transform: rotateY(-180deg);
-        }
-    }
+//     @for $i from 1 through 7 {
+//         #sketchbook_page#{$i}_checkbox:checked ~ #sketchbook #sketchbook_page#{$i} {
+//             transform: rotateY(-180deg);
+//         }
+//     }
 
-}
+// }
