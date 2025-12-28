@@ -183,9 +183,7 @@ Cordyceps and frog zines have 4 pages and no cover*/
 
 /* --- SKETCHBOOK CHECKBOX LOGIC (7 pages, cover) --- */
 #sketchbook_cover_checkbox:checked ~ #sketchbook {
-    //transform: translateX(300px); // Shifts 50% of 600px width
-    //transform: translateX(50%);
-    transform: translateX(clamp(20%, 30vw, 50%));
+    transform: translateX(50%);
     .front_cover {
         transform: rotateY(-180deg);
         z-index: 1 !important;
@@ -227,42 +225,10 @@ Cordyceps and frog zines have 4 pages and no cover*/
 
 @media (max-width: 900px) {
 
-  #sketchbook_cover_checkbox:checked ~ #sketchbook,
-  #C_page1_checkbox:checked ~ #cordyceps,
-  #F_page1_checkbox:checked ~ #frog {
+  // #sketchbook_cover_checkbox:checked ~ #sketchbook,
+  // #C_page1_checkbox:checked ~ #cordyceps,
+  // #F_page1_checkbox:checked ~ #frog {
+    #sketchbook_cover_checkbox:checked ~ #sketchbook {
     transform: none;
   }
-
-}
-
-@media (max-width: 768px) {
-  #sketchbook {
-    transform: scale(0.85);
-    transform-origin: center top;
-  }
-
-  #sketchbook_cover_checkbox:checked ~ #sketchbook {
-    transform: scale(0.85);
-  }
-}
-
-@media (max-width: 480px) {
-
-    #sketchbook {
-        transform: scale(0.75);
-    }
-
-    .flip_container {
-        margin-bottom: 2rem;
-    }
-
-    .landscape-book,
-    .portrait-book {
-        width: 95vw;
-        min-width: 260px;
-    }
-
-    .page::before {
-        width: clamp(6px, 2.5%, 12px);
-    }
 }
