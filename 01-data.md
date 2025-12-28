@@ -18,7 +18,7 @@ nav-menu: true
 		<header class="major">
 			<h2>Systems-level Analytics</h2>
 		</header>
-		<p>I draw on over a decade of data analytics and statistical programming to identify meaningful patterns in complex systems and drive data-driven decision making. I currently consult with the Research & Planning (RP) Group to support student success and equity for the California Community College systems. I use my background of bioengineering, disease ecology, and epidemiological statistics to rigorously analyze "black box" systems and draw actionable conclusions on their inner workings.</p>
+		<p>I draw on over a decade of data analytics and statistical programming to identify meaningful patterns in complex systems and drive data-driven decision making. I currently consult with the Research & Planning (RP) Group, a non-profit, non-partisan research team that supports student success and equity for the California Community College systems. I use my background of bioengineering, disease ecology, and epidemiological statistics to rigorously analyze "black box" systems and draw actionable conclusions on their inner workings.</p>
 	</div>
 </section>
 
@@ -33,7 +33,7 @@ nav-menu: true
 				<header class="major">
 					<h3> Supporting Community College Students with Data</h3>
 				</header>
-				<p>As an institutional researcher, I work to support community college student equity and success. I currently consult with the RP Group to assess the impacts of state-level policies on equitable student outcomes.  I previously worked with the Office of Research and Planning at the City College of San Francisco to visualize data and empower faculty and staff to make evidence-based decisions.</p>
+				<p>As an institutional researcher, I work to support community college student equity and success. I currently consult with the Research & Planning (RP) Group, a non-profit, non-partisan research team, to support state-level policies that promote equitable student outcomes. I previously worked with the Office of Research and Planning at the City College of San Francisco to visualize data and empower faculty and staff to make evidence-based decisions.</p>
 				<ul class="actions">
 					<li><a href="https://rpgroup.org/" class="button">The RP Group</a></li>
 				</ul>
@@ -52,7 +52,7 @@ nav-menu: true
 				<header class="major">
 					<h3>COVID-19 and Income Inequality</h3>
 				</header>
-				<p>The infection fatality rate (IFR) for COVID-19 is influenced by several variables. This interactive demo examines the relationship between IFR, age, and income (measured as median income or income inequality) on a country level. United States data was inferred using a Bayesian statistical model.</p>
+				<p>For my Master's Degree in Ecology and Evolutionary Biology, I examined the the infection fatality rate (IFR) for COVID-19. This interactive demo examines the relationship between IFR, age, and income (measured as median income or income inequality) on a country level. United States data was inferred using a Bayesian statistical model.</p>
 				<ul class="actions">
 					<li><a href="https://chloerickards.shinyapps.io/Covid19/" class="button">Learn more</a></li>
 				</ul>
@@ -68,7 +68,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Theoretical Models of Bioengineering for Global Health</h3>
 				</header>
-				<p>As genetic engineering becomes easier and cheaper, its potential for improving global health continues to grow. This theoretical model examines the potential application of a CRISPR-Cas9 gene drive to a population of Biomphalaria glabrata snails, the intermediate host for the neglected tropical disease schistosomiasis. </p>
+				<p>For my Bachelor's honors thesis in Bioengineering, I studied the relationship between genetic engineering and global health. This theoretical model examines the potential application of a CRISPR-Cas9 gene drive to a population of Biomphalaria glabrata snails, the intermediate host for the neglected tropical disease schistosomiasis. </p>
 				<ul class="actions">
 					<li><a href="/genedrive/" class="button">Learn more</a></li>
 				</ul>
@@ -84,7 +84,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Disease Modeling</h3>
 				</header>
-				<p>Pandemics are often simulated using compartmental epidemiological models. This interactive demo walks the user through a few different models, each increasing in complexity.</p>
+				<p>I love finding ways to turn theorectical concepts into interactive teaching tools. This interactive demo shows different outcomes of large-scale pandemics by walking the user through different compartmental epidemiological models. </p>
 				<ul class="actions">
 					<li><a href="https://chloerickards.shinyapps.io/diseasemodels/" class="button">Learn more</a></li>
 				</ul>
@@ -92,18 +92,4 @@ nav-menu: true
 		</div>
 	</section>
 </section>
-
-<!-- Three -->
-<!-- <section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Massa libero</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
-		</ul>
-	</div>
-</section> -->
-
 </div>
