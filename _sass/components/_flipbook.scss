@@ -131,7 +131,7 @@
     // height: 450px;
     width: 90vw; 
     // max-width: 600px;
-    max-width: 375px;
+    max-width: 450px;
     aspect-ratio: 4 / 3; 
     height: auto;
     .front_cover, .back_cover {
@@ -224,7 +224,7 @@ Cordyceps and frog zines have 4 pages and no cover*/
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
   #sketchbook {
     perspective: 1000px;
