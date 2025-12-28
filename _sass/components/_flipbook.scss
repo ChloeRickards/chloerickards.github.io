@@ -2,20 +2,19 @@
 .flipbook-viewport {
     width: 100%;
     display: flex;
-    justify-content: center; // Keeps the 'spine' in the center
+    justify-content: center;
     align-items: center;
-    overflow-x: auto;       // Allows horizontal scrolling
-    padding: 2em 0;         // Space for the book to grow
+    overflow-x: auto;
+    padding: 2em 0;
     -webkit-overflow-scrolling: touch; 
+    min-height: 500px
+
+    @include breakpoint(small){
+        min-height: 300px
+    }
 }
 
 /* --- FLIPBOOK LOGIC --- */
-.flip_wrapper {
-  display: flex;
-  justify-content: center;
-  overflow-x: hidden;
-}
-
 .flip_container {
     position: relative;
     perspective: 2000px;
@@ -200,7 +199,8 @@ Cordyceps and frog zines have 4 pages and no cover*/
 
 /* --- SKETCHBOOK CHECKBOX LOGIC (7 pages, cover) --- */
 #sketchbook_cover_checkbox:checked ~ #sketchbook {
-    transform: translateX(50%);
+    // transform: translateX(50%);
+    transform: translateX(25vw);
     .front_cover {
         transform: rotateY(-180deg);
         z-index: 1 !important;
@@ -237,6 +237,15 @@ Cordyceps and frog zines have 4 pages and no cover*/
     #F_page#{$i}_checkbox:checked ~ #frog #F_page#{$i} {
         transform: rotateY(-180deg);
         z-index: 10 + $i;
+    }
+}
+
+@media (max-width: 480px) {
+    .flipbook-viewport {
+        /* Forces the container to be wide enough so the left page 
+           starts at the left edge of the screen, not off of it. */
+        justify-content: flex-start; 
+        padding-left: 5vw; 
     }
 }
 
