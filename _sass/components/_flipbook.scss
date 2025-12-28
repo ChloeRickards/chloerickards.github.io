@@ -1,4 +1,21 @@
+/* --- FLIPBOOK CONTAINER --- */
+.flipbook-viewport {
+    width: 100%;
+    display: flex;
+    justify-content: center; // Keeps the 'spine' in the center
+    align-items: center;
+    overflow-x: auto;       // Allows horizontal scrolling
+    padding: 2em 0;         // Space for the book to grow
+    -webkit-overflow-scrolling: touch; 
+}
+
 /* --- FLIPBOOK LOGIC --- */
+.flip_wrapper {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
 .flip_container {
     position: relative;
     perspective: 2000px;
