@@ -85,7 +85,7 @@ nav-menu: true
 		Sketchbook 
 		-->
 		<p> Note: This sketchbook is not optimized for mobile or narrow windows, but you can try!</p>
-		<div style="display: flex; justify-content: center; align-items: center; min-height: 500px;">
+		<div class="flipbook-viewport">
 			<!--Checkboxes-->
 			<input type="checkbox" id="sketchbook_cover_checkbox" class="flip_trigger">
 			{% for i in (1..7) %}<input type="checkbox" id="sketchbook_page{{ i }}_checkbox" class="flip_trigger">{% endfor %}
