@@ -429,7 +429,7 @@ nav-menu: true
 					<span class="image fit"><img src="{% link assets/images/magicschoolbus.webp %}" alt="Halloween costume of myself as Miss Frizzle, with a Magic School Bus companion, and with my bearded dragon as Lizzy the lizard." />
 					</span>
 					<p style="font-size: 0.8em; line-height: 1.2em; margin-top: -10px;">
-						Featuring Savannah, my bearded dragon, as Lizzy.
+						Featuring Savannah, my bearded dragon, as Liz.
 					</p>
 				</div>
 			</div>
