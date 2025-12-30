@@ -85,101 +85,98 @@ nav-menu: true
 		Sketchbook 
 		-->
 		<p> Note: This sketchbook is not optimized for mobile or narrow windows, but you can try!</p>
-		<div class="flipbook-viewport">
-			<!--Checkboxes-->
-			<input type="checkbox" id="sketchbook_cover_checkbox" class="flip_trigger">
+		<input type="checkbox" id="sketchbook_cover_checkbox" class="flip_trigger">
 			{% for i in (1..7) %}<input type="checkbox" id="sketchbook_page{{ i }}_checkbox" class="flip_trigger">{% endfor %}
-	        <div id="sketchbook" class = "flip_container landscape-book">
-				<!--Cover-->
-	            <div class="front_cover">
-					<div class="front_page_cover">
-		                <label for="sketchbook_cover_checkbox">
-							<img src="{% link assets/images/sketchbook.webp %}" 
+	    <div id="sketchbook" class = "flip_container landscape-book">
+			<!--Cover-->
+	        <div class="front_cover">
+				<div class="front_page_cover">
+		            <label for="sketchbook_cover_checkbox">
+						<img src="{% link assets/images/sketchbook.webp %}" 
 								alt="Sketchbook cover">
-						</label>
-					</div>
-					<div class="back_page_cover"></div>
-	            </div>
-				<!--Page 1-->
-	            <div class="page" id="sketchbook_page1">
-	                <div class="front_page">
-	                    <label for="sketchbook_page1_checkbox"></label>
-	                    <img class="front_content" src="{% link assets/images/beltane.webp %}" alt="Full-page watercolor of a festival scene">
-	                </div>
-	                <div class="back_page">
-	                    <label for="sketchbook_page1_checkbox"></label>
-	                    <img class="back_content" src="{% link assets/images/cordy_ant.webp %}" alt="Watercolor of an ant infected with the Cordyceps fungus">
-	                </div>
-	            </div>
-				<!--Page 2-->
-	            <div class="page" id="sketchbook_page2">
-	                <div class="front_page">
-	                    <label for="sketchbook_page2_checkbox"></label>
-	                    <img class="front_content" src="{% link assets/images/mosquito.webp %}" alt="Watercolor of a mosquito filled with blood">
-	                </div>
-	                <div class="back_page">
-	                    <label for="sketchbook_page2_checkbox"></label>
-	                    <img class="back_content" src="{% link assets/images/savannahhat.webp %}" alt="Watercolor of a bearded dragon in a witch's hat">
-	                </div>
-	            </div>
-				<!--Page 3-->
-				<div class="page" id="sketchbook_page3">
-	                <div class="front_page">
-	                    <label for="sketchbook_page3_checkbox"></label>
-	                    <img class="front_content" src="{% link assets/images/redwoodflowers.webp %}" alt="Watercolor of several wildflowers common to redwood forests">
-	                </div>
-	                <div class="back_page">
-	                    <label for="sketchbook_page3_checkbox"></label>
-	                    <img class="back_content" src="{% link assets/images/bluebutterfly.webp %}" alt="Watercolor of a small blue butterfly">
-	                </div>
-	            </div>
-				<!--Page 4-->
-				<div class="page" id="sketchbook_page4">
-	                <div class="front_page">
-	                    <label for="sketchbook_page4_checkbox"></label>
-	                    <img class="front_content" src="{% link assets/images/creepyplants.webp %}" alt="Watercolor of a corpse flower and a California pitcher plant">
-	                </div>
-	                <div class="back_page">
-	                    <label for="sketchbook_page4_checkbox"></label>
-	                    <img class="back_content" src="{% link assets/images/crow.webp %}" alt="Watercolor of a crow looking upward">
-	                </div>
-	            </div>
-				<!--Page 5-->
-				<div class="page" id="sketchbook_page5">
-	                <div class="front_page">
-	                    <label for="sketchbook_page5_checkbox"></label>
-	                    <img class="front_content" src="{% link assets/images/lm.webp %}" alt="Watercolor of a series of montage from the immersive world of Lennox Mutual">
-	                </div>
-	                <div class="back_page">
-	                    <label for="sketchbook_page5_checkbox"></label>
-	                    <img class="back_content" src="{% link assets/images/pug.webp %}" alt="Watercolor of a pug dog in magenta and yellow">
-	                </div>
-	            </div>
-				<!--Page 6-->
-				<div class="page" id="sketchbook_page6">
-	                <div class="front_page">
-	                    <label for="sketchbook_page6_checkbox"></label>
-	                    <img class="front_content" src="{% link assets/images/towhee.webp %}" alt="Watercolor of a Spotted Towhee">
-	                </div>
-	                <div class="back_page">
-	                    <label for="sketchbook_page6_checkbox"></label>
-	                    <img class="back_content" src="{% link assets/images/salamander.webp %}" alt="Watercolor of a black salamander with orange spots, infectd with Cordyceps fungus">
-	                </div>
-	            </div>
-				<!--Page 7-->
-				<div class="page" id="sketchbook_page7">
-	                <div class="front_page">
-	                    <label for="sketchbook_page7_checkbox"></label>
-	                    <img class="front_content" src="{% link assets/images/cordy_deer.webp %}" alt="Watercolor of a deer infected with Cordyceps">
-	                </div>
-	                <div class="back_page">
-	                    <label for="sketchbook_page7_checkbox"></label>
-	                    <img class="back_content" src="{% link assets/images/zayante.webp %}" alt="Watercolor of a Zayante band-winged grasshopper">
-	                </div>
-	            </div>
-	            <div class="back_cover"></div> 
+					</label>
+				</div>
+				<div class="back_page_cover"></div>
 	        </div>
-		</div>
+				<!--Page 1-->
+	        <div class="page" id="sketchbook_page1">
+	            <div class="front_page">
+	                <label for="sketchbook_page1_checkbox"></label>
+	                <img class="front_content" src="{% link assets/images/beltane.webp %}" alt="Full-page watercolor of a festival scene">
+	            </div>
+	            <div class="back_page">
+	                <label for="sketchbook_page1_checkbox"></label>
+	                <img class="back_content" src="{% link assets/images/cordy_ant.webp %}" alt="Watercolor of an ant infected with the Cordyceps fungus">
+	            </div>
+	        </div>
+			<!--Page 2-->
+	        <div class="page" id="sketchbook_page2">
+	            <div class="front_page">
+	                <label for="sketchbook_page2_checkbox"></label>
+	                <img class="front_content" src="{% link assets/images/mosquito.webp %}" alt="Watercolor of a mosquito filled with blood">
+	            </div>
+	            <div class="back_page">
+	                <label for="sketchbook_page2_checkbox"></label>
+	                <img class="back_content" src="{% link assets/images/savannahhat.webp %}" alt="Watercolor of a bearded dragon in a witch's hat">
+	            </div>
+	        </div>
+				<!--Page 3-->
+			<div class="page" id="sketchbook_page3">
+	            <div class="front_page">
+	                <label for="sketchbook_page3_checkbox"></label>
+	                <img class="front_content" src="{% link assets/images/redwoodflowers.webp %}" alt="Watercolor of several wildflowers common to redwood forests">
+	            </div>
+	            <div class="back_page">
+	                <label for="sketchbook_page3_checkbox"></label>
+	                <img class="back_content" src="{% link assets/images/bluebutterfly.webp %}" alt="Watercolor of a small blue butterfly">
+	            </div>
+	        </div>
+			<!--Page 4-->
+			<div class="page" id="sketchbook_page4">
+	            <div class="front_page">
+	                <label for="sketchbook_page4_checkbox"></label>
+	                <img class="front_content" src="{% link assets/images/creepyplants.webp %}" alt="Watercolor of a corpse flower and a California pitcher plant">
+	            </div>
+	            <div class="back_page">
+	                <label for="sketchbook_page4_checkbox"></label>
+	                <img class="back_content" src="{% link assets/images/crow.webp %}" alt="Watercolor of a crow looking upward">
+	            </div>
+	        </div>
+				<!--Page 5-->
+			<div class="page" id="sketchbook_page5">
+	            <div class="front_page">
+	                <label for="sketchbook_page5_checkbox"></label>
+	                <img class="front_content" src="{% link assets/images/lm.webp %}" alt="Watercolor of a series of montage from the immersive world of Lennox Mutual">
+	            </div>
+	            <div class="back_page">
+	                <label for="sketchbook_page5_checkbox"></label>
+	                <img class="back_content" src="{% link assets/images/pug.webp %}" alt="Watercolor of a pug dog in magenta and yellow">
+	            </div>
+	        </div>
+			<!--Page 6-->
+			<div class="page" id="sketchbook_page6">
+	            <div class="front_page">
+	                <label for="sketchbook_page6_checkbox"></label>
+	                <img class="front_content" src="{% link assets/images/towhee.webp %}" alt="Watercolor of a Spotted Towhee">
+	            </div>
+	            <div class="back_page">
+	                <label for="sketchbook_page6_checkbox"></label>
+	                <img class="back_content" src="{% link assets/images/salamander.webp %}" alt="Watercolor of a black salamander with orange spots, infectd with Cordyceps fungus">
+	            </div>
+	        </div>
+			<!--Page 7-->
+			<div class="page" id="sketchbook_page7">
+	            <div class="front_page">
+	                <label for="sketchbook_page7_checkbox"></label>
+	                <img class="front_content" src="{% link assets/images/cordy_deer.webp %}" alt="Watercolor of a deer infected with Cordyceps">
+	            </div>
+	            <div class="back_page">
+	                <label for="sketchbook_page7_checkbox"></label>
+	                <img class="back_content" src="{% link assets/images/zayante.webp %}" alt="Watercolor of a Zayante band-winged grasshopper">
+	            </div>
+	        </div>
+	        <div class="back_cover"></div> 
+	    </div>
 		<div class="book-feature">
     		<span class="image book-cover">
         		<img src="{% link assets/images/poisonedbrother.webp %}" alt="Book cover featuring a watercolor salamander, titled The Poisoned Brother by David Rickards" />
