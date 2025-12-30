@@ -177,6 +177,7 @@ nav-menu: true
 	        </div>
 	        <div class="back_cover"></div> 
 	    </div>
+		<hr />
 		<div class="book-feature">
     		<span class="image book-cover">
         		<img src="{% link assets/images/poisonedbrother.webp %}" alt="Book cover featuring a watercolor salamander, titled The Poisoned Brother by David Rickards" />
