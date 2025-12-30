@@ -1,4 +1,10 @@
 /* --- FLIPBOOK LOGIC --- */
+.flipbook-viewport {
+      display: flex;
+      justify-content: center;
+      overflow-x: hidden;
+}
+
 .flip_container {
     position: relative;
     perspective: 2000px;
@@ -129,7 +135,7 @@
 .landscape-book {
     // width: 600px;
     // height: 450px;
-    width: 90vw; 
+    width: 50vw; 
     max-width: 600px;
     aspect-ratio: 4 / 3; 
     height: auto;
