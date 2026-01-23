@@ -29,6 +29,7 @@ nav-menu: true
 			<li> Mural-making for local Santa Cruz businesses</li>	
 			<li> An interactive play about an AI possessed by a demon</li>
 		</ul>
+		<a href="https://ko-fi.com/chloerickards" class="button special">Buy me a coffee on Ko-fi</a>
 	</div>
 </section>
 		<!-- 
